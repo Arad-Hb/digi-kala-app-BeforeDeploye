@@ -1,0 +1,150 @@
+[{
+    "sideNav":[
+        {"name": "موبایل", "icon": "/images/mobileIcon.png","id":"0","imageUrl":"https://dkstatics-public.digikala.com/digikala-mega-menu/aba1e5dca8958ac1176e25cd194ff8ac622cd383_1692600155.png"},
+        {"name": "کتاب و لوازم تحریر", "icon": "LuPencilRuler","id":"1","imageUrl":"https://dkstatics-public.digikala.com/digikala-mega-menu/3582bbed0a53318c2332d2c79b051b226f02a3bb_1692600677.png"},
+        {"name": "کالای دیجیتال", "icon": "LiaLaptopSolid","id":"2","imageUrl":"https://dkstatics-public.digikala.com/digikala-mega-menu/8f80e75e4c2dca42ee0538e100c7a7b05455aa88_1692600287.png"},
+        {"name": "خانه و آشپزخانه", "icon": "RiSofaLine","id":"3","imageUrl":"https://dkstatics-public.digikala.com/digikala-mega-menu/0c3cc1cb589df1c74c4ad95a742bb6df967956a8_1692600390.png"},
+        {"name": "لوازم خانگی برقی", "icon": "CgSmartHomeRefrigerator","id":"4","imageUrl":"https://dkstatics-public.digikala.com/digikala-mega-menu/c16b7dff700a9d99880174c32ec233d20ddb531c_1703057953.png"},
+        {"name": "مد و پوشاک", "icon": "PiTShirtLight","id":"5","imageUrl":"https://dkstatics-public.digikala.com/digikala-mega-menu/5795b31a635f1e23df96a908c009f31744ede38f_1692600481.png"},
+        {"name": "ساعت و جواهرات", "icon": "GiEmeraldNecklace","id":"6","imageUrl":"https://dkstatics-public.digikala.com/digikala-mega-menu/d17e98a20e1681c7bac5af856aa9552250ec9a96_1710666504.png"},
+        {"name": "آرایشی بهداشتی", "icon": "TbHeartCheck","id":"7","imageUrl":"https://dkstatics-public.digikala.com/digikala-mega-menu/0cefa48f5c58adbbde8c5a76b22ee49de0e667f5_1692600876.png"},
+        {"name": "تجهیزات پزشکی و سلامت", "icon": "LiaNotesMedicalSolid","id":"8","imageUrl":"https://dkstatics-public.digikala.com/digikala-mega-menu/a8579f44936c7fdff292b005a5d927601cb67cb9_1714224510.jpg"},
+        {"name": "ورزش و سفر", "icon": "FaCampground","id":"9","imageUrl":"https://dkstatics-public.digikala.com/digikala-mega-menu/1c44d5964f259e0725ec86ca9739de888f1862c7_1692600975.png"},
+        {"name": "کارت هدیه", "icon": "TbGiftCard","id":"10","imageUrl":"https://dkstatics-public.digikala.com/digikala-mega-menu/20c179dff5c513104599d33858b6b11e77ced9b4_1692601532.png"},
+        {"name": "کالاهای سوپرمارکتی", "icon": "RiShoppingBasketLine","id":"11","imageUrl":"https://dkstatics-public.digikala.com/digikala-mega-menu/da24c42172585abb0c328accf85d071049c4253e_1692600598.png"},
+        {"name": "اسباب بازی و کودک", "icon": "MdOutlineSmartToy","id":"12","imageUrl":"https://dkstatics-public.digikala.com/digikala-mega-menu/0c46d2532d61dd3a5b6a3afc17552c23c1b4d39e_1692600773.png"},
+        {"name": "ابزارآلات و تجهیزات", "icon": "BiWrench","id":"13","imageUrl":"https://dkstatics-public.digikala.com/digikala-mega-menu/5d89d5b168e5ed079d619181e849cc737ec42c8d_1692601067.png"},
+        {"name": "خودرو و موتورسیکلت", "icon": "IoCarSportOutline","id":"14","imageUrl":"https://dkstatics-public.digikala.com/digikala-mega-menu/4e985adcf61dd54d4d8abe725a62ba3990ea1eb1_1692601177.png"},
+        {"name": "محصولات بومی و محلی", "icon": "TbBrandReactNative","id":"15","imageUrl":"https://dkstatics-public.digikala.com/digikala-mega-menu/af02140ea60e0fd478b09b279976a095c95615b6_1692601283.png"}
+    ]
+        
+},
+{
+    "mainNav":[
+        {"name": "موبایل","parentId":"0","titles":[
+            {"name":"برندهای مختلف گوشی موبایل" , "items":[
+                {"name":"گوشی آیفون" , "Link":"گوشی تا 48 مگا پیکسل"},
+                {"name":"گوشی سامسونگ" , "Link":"پرداخت در محل"},
+                {"name":"گوشی جی ال ایکس" , "Link":"پرداخت در محل"},
+                {"name":"گوشی جی پلاس" , "Link":"پرداخت در محل"},
+                {"name":"گوشی آنر" , "Link":"پرداخت در محل"},
+                {"name":"گوشی هوآوی" , "Link":"پرداخت در محل"},
+                {"name":"گوشی شیایومی" , "Link":"پرداخت در محل"},
+                {"name":"گوشی موتورولا" , "Link":"پرداخت در محل"},
+                {"name":"گوشی نوکیا" , "Link":"پرداخت در محل"},
+                {"name":"گوشی وان پلاس" , "Link":"پرداخت در محل"},
+                {"name":"گوشی ناتینگ فون" , "Link":"پرداخت در محل"},
+                {"name":"گوشی ارد" , "Link":"پرداخت در محل"},
+                {"name":"گوشی ریلمی" , "Link":"پرداخت در محل"},
+                {"name":"گوشی جنرال لوکس" , "Link":"پرداخت در محل"},
+                {"name":"گوشی داریا" , "Link":"پرداخت در محل"},
+                {"name":"گوشی گوگل" , "Link":"پرداخت در محل"},
+                {"name":"گوشی اوپو" , "Link":"پرداخت در محل"},
+                {"name":"گوشی رنسو" , "Link":"پرداخت در محل"}
+            ]},
+            {"name":"گوشی بر اساس قیمت" , "items":[
+                {"name":"گوشی موبایل ارزان" , "Link":"پرداخت در محل"},
+                {"name":"گوشی موبایل قسطی" , "Link":"پرداخت در محل"},
+                {"name":"گوشی تا 2 میلیون تومان" , "Link":"پرداخت در محل"},
+                {"name":"گوشی تا 5 میلیون تومان" , "Link":"پرداخت در محل"},
+                {"name":"گوشی تا 7 میلیون تومان" , "Link":"پرداخت در محل"},
+                {"name":"گوشی تا 15 میلیون تومان" , "Link":"پرداخت در محل"},
+                {"name":"گوشی بالای 15 میلیون تومان" , "Link":"پرداخت در محل"}
+            ]},
+            {"name":"گوشی بر اساس عملکرد" , "items":[
+                {"name":"گوشی گیمینگ" , "Link":"پرداخت در محل"},
+                {"name":"گوشی ضدآب" , "Link":"پرداخت در محل"},
+                {"name":"گوشی دکمه ای" , "Link":"پرداخت در محل"},
+                {"name":"گوشی اقتصادی" , "Link":"پرداخت در محل"},
+                {"name":"گوشی دانش آموزی" , "Link":"پرداخت در محل"},
+                {"name":"گوشی مناسب عکاسی" , "Link":"پرداخت در محل"},
+                {"name":"گوشی میان رده" , "Link":"پرداخت در محل"},
+                {"name":"گوشی پرچمدار" , "Link":"پرداخت در محل"},
+                {"name":"دو سیمکارت" , "Link":"پرداخت در محل"}
+            ]},
+            {"name":"گوشی بر اساس حافظه داخلی" , "items":[
+                {"name":"گوشی تا 16 گیگا بایت" , "Link":"پرداخت در محل"},
+                {"name":"گوشی تا 32 گیگا بایت" , "Link":"پرداخت در محل"},
+                {"name":"گوشی تا 64 گیگا بایت" , "Link":"پرداخت در محل"},
+                {"name":"گوشی تا 128 گیگا بایت" , "Link":"پرداخت در محل"},
+                {"name":"گوشی تا 256 گیگا بایت" , "Link":"پرداخت در محل"},
+                {"name":"گوشی تا 1 ترا بایت" , "Link":"پرداخت در محل"}
+            ]},
+            {"name":"رزولوشن عکس" , "items":[
+                {"name":"گوشی تا 13 مگا پیکسل" , "Link":"پرداخت در محل"},
+                {"name":"گوشی تا 16 مگا پیکسل" , "Link":"پرداخت در محل"},
+                {"name":"گوشی تا 48 مگا پیکسل" , "Link":"پرداخت در محل"},
+                {"name":"گوشی تا 64 مگا پیکسل" , "Link":"پرداخت در محل"},
+                {"name":"گوشی تا 108 مگا پیکسل" , "Link":"پرداخت در محل"}
+            ]},
+            {"name":"لوازم جانبی موبایل" , "items":[
+                {"name":"شارژر گوشی" , "Link":"پرداخت در محل"},
+                {"name":"قاب و کاور گوشی" , "Link":"پرداخت در محل"},
+                {"name":"گلس گوشی" , "Link":"پرداخت در محل"},
+                {"name":"هولدر گوشی" , "Link":"پرداخت در محل"},
+                {"name":"پاور بانک" , "Link":"پرداخت در محل"},
+                {"name":"کابل شارژ و مبدل" , "Link":"پرداخت در محل"}
+            ]},
+            {"name":"تبلت" , "items":[
+                {"name":"تبلت سامسونگ" , "Link":"پرداخت در محل"},
+                {"name":"تبلت اپل" , "Link":"پرداخت در محل"},
+                {"name":"تبلت شیایومی" , "Link":"پرداخت در محل"},
+                {"name":"تبلت لنوو" , "Link":"پرداخت در محل"},
+                {"name":"تبلت مایکروسافت" , "Link":"پرداخت در محل"},
+                {"name":"تبلت دانش آموزی" , "Link":"پرداخت در محل"}
+            ]},
+            {"name":"هدفون" , "items":[
+                {"name":"هدفون بی سیم" , "Link":"پرداخت در محل"},
+                {"name":"هدفون ایرپاد" , "Link":"پرداخت در محل"},
+                {"name":"هدفون بیتس" , "Link":"پرداخت در محل"},
+                {"name":"هدفون سونی" , "Link":"پرداخت در محل"},
+                {"name":"هدفون ایرپادز" , "Link":"پرداخت در محل"},
+                {"name":"هدفون جی بی ال" , "Link":"پرداخت در محل"},
+                {"name":"هدفون شیایومی" , "Link":"پرداخت در محل"}
+            ]},
+            {"name":"ساعت و مچ بند هوشمند" , "items":[
+                {"name":"ساعت هوشمند سامسونگ" , "Link":"پرداخت در محل"},
+                {"name":"ساعت هوشمند شیایومی" , "Link":"پرداخت در محل"},
+                {"name":"اپل واچ" , "Link":"پرداخت در محل"}
+            ]},
+            {"name":"داغ ترین ها" , "items":[
+                {"name":"گلکسی A54" , "Link":"پرداخت در محل"},
+                {"name":"گلکسی A34" , "Link":"پرداخت در محل"},
+                {"name":"گلکسی A24" , "Link":"پرداخت در محل"},
+                {"name":"ردمی نوت 12" , "Link":"پرداخت در محل"},
+                {"name":"آنر X9a" , "Link":"پرداخت در محل"},
+                {"name":"پوکو M5s" , "Link":"پرداخت در محل"},
+                {"name":"داریا باند 5G" , "Link":"پرداخت در محل"}
+            ]}
+        ]}, 
+        {"name": "کتاب و لوازم تحریر","parentId":"1","titles":[
+            {"name":"کتاب و مجله" , "items":[
+                {"name":"کتاب چاپی" , "Link":"پرداخت در محل"},
+                {"name":"مجلات خارجی" , "Link":"پرداخت در محل"}
+            ]},
+            {"name":"آلات موسیقی" , "items":[
+                {"name":"گیتار" , "Link":"پرداخت در محل"},
+                {"name":"پیانو" , "Link":"پرداخت در محل"}
+            ]}
+        ]}, 
+        {"name": "کالای دیجیتال","parentId":"2","titles":[
+            {"name":"لپ تاپ" , "items":[
+                {"name":" لپ تاپ ایسوس" , "Link":"پرداخت در محل"},
+                {"name":"مک بوک " , "Link":"پرداخت در محل"}
+            ]},
+            {"name":"هدفون " , "items":[
+                {"name":"هدفون اپل" , "Link":"گوشی پرچمدار"},
+                {"name":"هدفون بیتس" , "Link":"پرداخت در محل"}
+            ]},
+            {"name":"پرینتر " , "items":[
+                {"name":"پرینتر سه بعدی" , "Link":"پرداخت در محل"},
+                {"name":"پرینتر رنگی" , "Link":"پرداخت در محل"}
+            ]}
+        ]}
+      
+    ]
+        
+}
+
+    
+]

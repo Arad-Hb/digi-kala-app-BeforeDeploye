@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.logo{
+
+}
+.logoImage{
+
+}
+.information{
+display: flex;
+flex-direction: row;
+font-size: 14px;
+}
+.seperator{
+content: "";
+background-color: #a1a3bb;
+width: 1px;
+height: 20px;
+margin: 0px 5px;
+}
+.ContactUsText{
+
+}

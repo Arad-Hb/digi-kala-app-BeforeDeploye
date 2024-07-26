@@ -1,0 +1,10 @@
+.isActive{
+color: blue;
+}
+.deActive{
+color: grey;
+}
+.NavLink{
+    text-decoration: none;
+    color: black;
+}

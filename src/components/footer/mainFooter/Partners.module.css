@@ -1,0 +1,19 @@
+.outerContainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #f0f0f1;
+}
+.partnerLink{
+text-decoration: none;
+border-left: 1px solid #e0e0e2;
+border-bottom: 1px solid #e0e0e2;
+align-items: center;
+}
+.partnerImage{
+ width: 85%;
+ height: 20px;
+ padding: 0px 40px;
+margin:30px auto;
+}
