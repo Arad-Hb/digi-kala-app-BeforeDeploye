@@ -1,6 +1,7 @@
 .outerContainer{
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 .header{
  display: flex;
@@ -9,7 +10,57 @@
  align-items: baseline;
 }
 .main{
+display: flex;
+flex-direction: column;
+width: 100%;
+}
+.delivery{
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
 
+}
+.withDigikalaContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    text-align: right;
+    align-items:baseline;
+    margin-top: 30px;
+}
+.aboutUs{
+    flex-basis: 25%;
+}
+.customerServices{
+   flex-basis: 25%; 
+}
+.orderGuidance{
+  flex-basis: 25%;  
+}
+.medaiContainer{
+   flex-basis: 20%;
+   display: flex;
+   flex-direction: column; 
+   
+}
+.socialMedia{
+    display: flex;
+    flex-direction: column;
+}
+.email{
+    display: flex;
+      flex-direction: column; 
+}
+.introductionLegalContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.introduction{
+flex-basis: 65%;
+}
+.legal{
+flex-basis: 30%;
 }
 .footer{
 

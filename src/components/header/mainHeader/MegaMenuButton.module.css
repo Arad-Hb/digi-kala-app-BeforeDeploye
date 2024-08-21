@@ -1,0 +1,14 @@
+.megaMenuButton{
+    color: #424750; 
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.icon{
+    font-size: 18px;
+}
+.title{
+    font-size: 14px;
+    font-weight: bold;
+}

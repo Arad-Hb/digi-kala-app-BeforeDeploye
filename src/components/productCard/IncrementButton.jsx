@@ -1,15 +1,14 @@
-'use client'
-import { increaseItem } from '@/redux/features/slices/shoppingCartSlice'
 import React from 'react'
-import { useDispatch } from 'react-redux'
 import { HiPlusSm } from "react-icons/hi"
 import styles from './IncrementButton.module.css'
+import Dispatcher from '../features/Dispatcher'
 
 const IncrementButton = ({product}) => {
-    const dispatch=useDispatch()
 
   return (
-    <button className={`${styles.counterButton}`} onClick={()=>dispatch(increaseItem(product.id))}><HiPlusSm /></button>
+    <Dispatcher event={'onClick'} action={'increaseItem'} value={product.id}>
+      <button className={`${styles.counterButton}`}><HiPlusSm /></button>
+    </Dispatcher>
   )
 }
 

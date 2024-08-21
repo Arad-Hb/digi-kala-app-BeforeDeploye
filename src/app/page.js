@@ -1,51 +1,42 @@
-import AllProducts from "@/components/productCard/AllProducts";
 import styles from "./page.module.css";
 import IncredibleOffers from "@/components/carousels/IncredibleOffers";
 import SmallBanner from "@/components/advertise/SmallBanner";
 import LargeBanner from "@/components/advertise/LargeBanner";
 import SingleBanner from "@/components/advertise/SingleBanner";
 import DigiIcons from "@/components/sevenIcons/DigiIcons";
+import CategoriesItems from "@/components/categorieItems/CategoriesItems";
+import MainSlider from "@/components/slider/MainSlider";
+import BrandsCarousel from "@/components/carousels/BrandsCarousel";
+import { getData } from "@/serverActions/getData";
+import Skeleton from "react-loading-skeleton";
+import 'react-loading-skeleton/dist/skeleton.css'
+import { Suspense } from "react";
+import MainLayout from "@/components/mainLayout/MainLayout";
 
-
-async function getAllProducts() {
-
-  const response = await fetch("http://80.75.14.90:9090/products" )
-  if (!response.ok) {
-      console.log("error")
-      return
-  }
-  else {
-      const data = await response.json()
-      return data
-  }
-}
-
-async function getIncredibleOffer() {
-
-  const response = await fetch("http://80.75.14.90:9090/products/incredibleOffers" )
-  if (!response.ok) {
-      console.log("error")
-      return
-  }
-  else {
-      const data = await response.json()
-      return data
-  }
-}
 
 export default async function Home() {
 
-  const allProducts=await getAllProducts()
-  const incredibleOffer=await getIncredibleOffer()
+  const data=await getData("public/mainSlider")
 
   return (
     <>
-      <div className={`${styles.allProducts}`}><AllProducts products={allProducts}/></div>
-      <div><DigiIcons/></div>
-      <div><SmallBanner/></div>
-      <div className={`${styles.IncredibleOffers}`}><IncredibleOffers products={incredibleOffer}/></div>
-      <div><LargeBanner/></div>
+    <MainLayout>
+      <Suspense fallback={<h1>main slider is loading...</h1>}>
+        <div><MainSlider value={data}/></div>
+      </Suspense>
+      <div><CategoriesItems/></div>
       <div><SingleBanner/></div>
+      <Suspense fallback={<h1>digi icons is loading...</h1>}>
+        <div><DigiIcons/></div>
+      </Suspense>
+      <div><SmallBanner/></div>
+      <Suspense fallback={<h1>incredibale offer is loading...</h1>}>
+        <div><IncredibleOffers/></div>
+      </Suspense>
+      <div><LargeBanner/></div>
+      <div><BrandsCarousel/></div>
+    </MainLayout>
+    
     </>
   );
 }

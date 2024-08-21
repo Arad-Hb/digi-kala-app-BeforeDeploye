@@ -1,0 +1,47 @@
+.outerContainer{
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border-radius: 10px;
+    
+}
+.payments{
+    padding: 20px 20px;
+}
+.paymentsLabel{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: bold;
+}
+.orderButton{
+margin-bottom: 15px;
+}
+.digiClub{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #f0f0f1;
+    height: 40px;
+    align-items: center;
+    padding: 20px 20px;
+}
+
+.clubIcon{
+width: 20px;
+height: 20px;
+}
+
+.titleText{
+font-size: 14px;
+font-weight: bold;
+}
+.infoIcon{
+    width: 20px;
+    height: 20px;
+}
+.digiClubPoint{
+    font-size: 14px;
+    font-weight: bold;
+}

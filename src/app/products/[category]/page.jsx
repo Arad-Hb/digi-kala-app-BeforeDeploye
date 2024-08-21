@@ -1,22 +1,12 @@
 import Card from '@/components/productCard/Card'
+import { getData } from '@/serverActions/getData'
 import React from 'react'
 
 
-async function getCategory(categoryName){
-  const response=await fetch(`http://80.75.14.90:9090/products/${categoryName}`)
-  if (!response.ok) {
-    console.log("error")
-    return
-}
-else {
-    const data = await response.json()
-    return data
-}
-}
 const page = async(props) => {
 
-const categoryName=props.params.category
-const categoryData=await getCategory(categoryName)
+  const categoryName=props.params.category
+  const categoryData=await getData(`products/${categoryName}`)
 
   return (
     <div>

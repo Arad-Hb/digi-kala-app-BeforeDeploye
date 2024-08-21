@@ -1,8 +1,7 @@
-import Footer from "@/components/footer/mainFooter/Footer";
 import "./globals.css";
 import localFont from 'next/font/local'
 import StoreProvider from "@/components/features/StoreProvider";
-
+import { Suspense } from "react";
 
 
 export const metadata = {
@@ -20,15 +19,15 @@ const iranSansFont=localFont(
   {src:'../../public/fonts/iransansx/IRANSansXUltraLight.ttf'})
 
 
-export default function RootLayout({ children }) {
-  
+export default function RootLayout({children}) {
+
   return (
     <html lang="fa">
       <body  className={iranSansFont.className }>
       <StoreProvider>
-          <div>هدر فونت</div>
-          <div>{children}</div>
-          <div><Footer/></div>
+        
+          <>{children}</>
+        
       </StoreProvider> 
       </body>
     </html>

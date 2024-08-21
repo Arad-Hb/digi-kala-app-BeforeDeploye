@@ -1,0 +1,17 @@
+.basketButton{
+position: relative;
+}
+
+.icon{
+font-size: 28px;
+transition: 0.3s !important;
+}
+.icon:hover{
+ color: blue;
+ transition: 0.3s !important;
+}
+.badge{
+position: absolute;
+top: 15px;
+right: 1px;
+}

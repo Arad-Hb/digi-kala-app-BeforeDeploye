@@ -11,7 +11,7 @@ const refreshState=(state)=>{
         state.totalCount+=item.count
         state.totalAmount+=item.priceWithDiscount!==0?item.priceWithDiscount*item.count:item.price*item.count
     })
-        return state
+    return state
 }
 const shoppingCartSlice=createSlice({
     name:"shoppingCartSlice",

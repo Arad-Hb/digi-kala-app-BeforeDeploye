@@ -1,3 +1,4 @@
+'use client'
 import React from 'react'
 import styles from './Partners.module.css'
 import Link from 'next/link'
@@ -9,7 +10,9 @@ const Partners = () => {
  const data=Data[0]
 
   return (
-    <div className={`${styles.outerContainer}`}>
+    <div className={`${styles.container}`}>
+        <div className={`${styles.laws}`}>برای استفاده از مطالب دیجی‌کالا، داشتن «هدف غیرتجاری» و ذکر «منبع» کافیست. تمام حقوق اين وب‌سايت نیز برای شرکت نوآوران فن آوازه (فروشگاه آنلاین دیجی‌کالا) است.</div>
+        <div className={`${styles.partners}`}>
         {
             data.partners.map(item=>{
                 return(
@@ -19,7 +22,9 @@ const Partners = () => {
                 )
             })
         }
+        </div>
     </div>
+    
   )
 }
 

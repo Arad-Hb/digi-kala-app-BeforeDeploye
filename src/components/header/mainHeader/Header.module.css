@@ -1,0 +1,60 @@
+.outerContainer{
+    display: flex;
+    flex-direction: column;
+}
+.mainHeader{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+margin: 10px;
+}
+.searchLogo{
+    display: flex;
+    flex-direction: row;
+    flex-basis: 70%;
+}
+.logo{
+flex-basis: 15%;
+
+}
+.searchBox{
+    flex-basis: 70%;
+}
+.basketSignup{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 10%;
+}
+.signUpButton{
+    margin-left: 30px;
+}
+
+.navBarContainer{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+}
+.navigation{
+flex-basis: 80%;
+display: flex;
+flex-direction: row;
+align-items: center;
+position: relative;
+}
+.megaMenu{
+flex-basis: 10%;
+}
+.navBar{
+flex-basis: 75%;
+display: flex;
+flex-direction: row;
+}
+.location{
+    flex-basis: 12%;
+    position: relative;
+}

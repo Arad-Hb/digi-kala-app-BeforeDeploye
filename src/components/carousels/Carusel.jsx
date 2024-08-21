@@ -6,10 +6,12 @@ import "slick-carousel/slick/slick-theme.css";
 import { NextArrow } from './CaruselArrow';
 import { PrevArrow } from './CaruselArrow';
 import Card from "../productCard/Card";
+import NavLink from "../features/NavLink";
+import Image from "next/image";
 
 
-const Carusel = ({products}) => {
-  
+const Carusel = ({products,dataType}) => {
+
     let settings = {
         className: "innerSliderDiv",
         adaptiveHeight: true,
@@ -107,7 +109,10 @@ const Carusel = ({products}) => {
       slidesToScroll={1}
       >
           {products.map((item) => (
-            <Card key={item.id} product = {item} />
+            dataType==="product"?<Card key={item.id} product = {item}/>:
+            <NavLink productId={null} categoryName={null} >
+                <Image width={110} height={90} style={{ height: 'auto',alignmentBaseline:'central' ,marginBottom:'30px'}} alt='brand' src={`/images/${item.imageUrl}`} />
+            </NavLink>
           ))}
       </Slider>
     </div>

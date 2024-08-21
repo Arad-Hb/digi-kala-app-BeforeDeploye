@@ -1,0 +1,12 @@
+.container{
+    padding: 5px;
+    margin-top: 10px;
+}
+.icon{
+ font-size: 30px;
+ transition: 0.3s !important;
+}
+.icon:hover{
+    color: blue;
+    transition: 0.3s !important;
+   }

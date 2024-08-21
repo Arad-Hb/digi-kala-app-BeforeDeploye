@@ -1,10 +1,10 @@
 import { combineReducers, configureStore } from '@reduxjs/toolkit'
 import { persistReducer, persistStore } from 'redux-persist'
 import localStorage from 'redux-persist/lib/storage' 
-import CounterSlice from "./features/slices/CounterSlice" 
 import shoppingCartSlice from "./features/slices/shoppingCartSlice"
 import menuSlice from './features/slices/menuSlice'
 import StaticImagesSlice from './features/slices/StaticImagesSlice'
+import UsersSlice from './features/slices/UsersSlice'
 
 
 const configuration = {
@@ -13,10 +13,10 @@ const configuration = {
 }
 
 const rootReducer = combineReducers({
-  counterReducer:CounterSlice,
   shoppingReducer:shoppingCartSlice,
   menuReducer:menuSlice,
-  staticImagesReducer:StaticImagesSlice
+  staticImagesReducer:StaticImagesSlice,
+  userReducer:UsersSlice
 })
 
 const persistableReducer = persistReducer(configuration , rootReducer)

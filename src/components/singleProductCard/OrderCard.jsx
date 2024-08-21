@@ -39,7 +39,7 @@ const OrderCard = ({data}) => {
             </div>
           </div>
         )}
-        <div className={`${styles.addButton}`}>{state.items.find(item=>item.id==data.id)?<Counter data={data}/>:data.stock!==0?<AddButton data={data}/>:<label className={`${styles.outOfStockLabel}`}>ناموجود</label>}</div>
+        <div className={`${styles.addButton}`}>{state.items.find(item=>item.id==data.id)?<Counter product={data} shoppingCardState={state}/>:data.stock!==0?<AddButton product={data} shoppingCardState={state}/>:<label className={`${styles.outOfStockLabel}`}>ناموجود</label>}</div>
       </div>
       <div className={`${styles.footer}`}>
         <div className={`${styles.guarantee}`}>

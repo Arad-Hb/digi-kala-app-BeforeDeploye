@@ -1,0 +1,15 @@
+.outerContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.title{
+    color: #3f4064;
+    font-weight: bold;
+    font-size: 20px;
+   }
+   .link{
+       text-decoration: none;
+   color: #81858b;
+   font-size: 14px;
+   }

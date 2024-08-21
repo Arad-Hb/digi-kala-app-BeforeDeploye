@@ -4,13 +4,16 @@
     justify-content: space-around;
     flex-wrap: nowrap;
     text-align: center;
+    margin: 20px 40px;
+}
+.iconsCard{
+    flex-basis: 15%;
 }
 
-.iconsLink{
+.icon{
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-decoration: none;
     color:black;
 }
 .iconsLabel{
@@ -19,20 +22,22 @@
     margin: 10px auto;
 }
 
+.dottedIconCard{
+    flex-basis: 15%;
+}
 .dottedIconLink{
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-decoration: none;
     color:black;
     justify-content: center;
 }
 .dottedIcon{
-font-size: 40px;
+font-size: 38px;
  background-color: #f0f0f1;
  border-radius: 100%;
  color: #a1a3a8;
- padding: 5px 5px;
+ padding: 3px;
 }
 .dottedIconLabel{
     font-size: 11px;
@@ -83,25 +88,5 @@ font-size: 40px;
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-    .iconsContainer{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        flex-wrap: nowrap;
-        text-align: center;
-    }
-    
-}
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1281px) {
-    .iconsContainer{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        flex-wrap: nowrap;
-        text-align: center;
-    }
 
-}

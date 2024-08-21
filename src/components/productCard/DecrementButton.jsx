@@ -1,14 +1,18 @@
-'use client'
+// 'use client'
 import React from 'react'
 import styles from './DecrementButton.module.css'
-import { useDispatch } from 'react-redux'
+// import { useDispatch } from 'react-redux'
 import { HiMinus } from "react-icons/hi"
-import { decreaseItem } from '@/redux/features/slices/shoppingCartSlice'
+// import { decreaseItem } from '@/redux/features/slices/shoppingCartSlice'
+import Dispatcher from '../features/Dispatcher'
 
 const DecrementButton = ({product}) => {
-    const dispatch=useDispatch()
+    // const dispatch=useDispatch()
   return (
-    <button className={`${styles.counterButton}`} onClick={()=>dispatch(decreaseItem(product.id))}><HiMinus /></button>
+    <Dispatcher event={'onClick'} action={'decreaseItem'} value={product.id}>
+      <button className={`${styles.counterButton}`}><HiMinus /></button>
+    </Dispatcher>
+    
   )
 }
 

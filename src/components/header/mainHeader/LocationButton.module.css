@@ -1,0 +1,13 @@
+.locationButton{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    color: #424750
+}
+.locationIcon{
+    font-size:18px;
+}
+.locationText{
+    font-size: 12px;
+}

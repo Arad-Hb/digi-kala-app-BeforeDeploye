@@ -1,16 +1,17 @@
-'use client'
-import { removeItem } from '@/redux/features/slices/shoppingCartSlice'
+
+// import { removeItem } from '@/redux/features/slices/shoppingCartSlice'
 import React from 'react'
 import { GoTrash } from "react-icons/go"
-import { useDispatch } from 'react-redux'
+// import { useDispatch } from 'react-redux'
 import styles from './RemoveButton.module.css'
+import Dispatcher from '../features/Dispatcher'
 
 const RemoveButton = ({product}) => {
-    const dispatch=useDispatch()
+    // const dispatch=useDispatch()
   return (
-    <div>
-        <button className={`${styles.counterButton}`} onClick={()=>dispatch(removeItem(product.id))}><GoTrash /></button>
-    </div>
+    <Dispatcher event={'onClick'} action={'removeItem'} value={product.id}>
+        <button className={`${styles.counterButton}`}><GoTrash /></button>
+    </Dispatcher>
   )
 }
 

@@ -19,6 +19,10 @@
     display: flex;
     flex-direction: column;
 }
+.incOfferLink{
+    color: white !important;
+    font-weight: bold;
+}
 .amzingWord{
     display: none;
 }

@@ -1,0 +1,18 @@
+.outerContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.deliveryItem{
+flex-basis: 20%;
+display: flex;
+flex-direction: column;
+align-items: center;
+text-decoration: none;
+color: black;
+}
+
+.deliveryTitle{
+font-size: 12px;
+}

@@ -1,0 +1,100 @@
+.outerContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+}
+.seperator{
+    margin: 5px auto;
+    content: "";
+    width: 80%;
+    height: 0.2px;
+    background-color: #cdced1e1;
+}
+.digiPlus{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+    }
+    .digiPlusName{
+     color: #c0c2c5;
+     font-weight: bold;
+    }
+    .digiPlusNameIcon{
+    font-size: 16px;
+    
+    }
+    .digiPlusNameText{
+    font-size: 12px;
+    }
+    .subscription{
+    color: #b12ba4;
+    font-weight: bold;
+    font-size: 10px;
+    
+    }
+    .subscriptionName{
+        margin: 0px 5px;
+    }
+    .subscriptionIcon{
+    
+    }
+    .items{
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        align-items: center;
+        padding: 3px 5px;
+    }
+    .itemsIcon{
+    font-weight: bold;
+    }
+    .itemsText{
+    font-size: 12px;
+    font-weight: bold;
+    margin-right: 5px;
+    }
+    @media (max-width: 480px) {
+.seperator{
+    margin: 5px auto;
+    content: "";
+    width: 95%;
+    height: 0.2px;
+    background-color: #cdced1e1;
+}
+    
+    }
+      
+    /* Media Query for low resolution  Tablets, Ipads */
+    @media (min-width: 481px) and (max-width: 767px) {
+    .seperator{
+    margin: 5px auto;
+    content: "";
+    width: 95%;
+    height: 0.2px;
+    background-color: #cdced1e1;
+}
+    }
+      
+    /* Media Query for Tablets Ipads portrait mode */
+    @media (min-width: 768px) and (max-width: 1024px){
+    .seperator{
+    margin: 5px auto;
+    content: "";
+    width: 95%;
+    height: 0.2px;
+    background-color: #cdced1e1;
+}
+    
+    }
+      
+    /* Media Query for Laptops and Desktops */
+    @media (min-width: 1025px) and (max-width: 1280px){
+    
+    }
+      
+    /* Media Query for Large screens */
+    @media (min-width: 1281px) {
+    
+    }
