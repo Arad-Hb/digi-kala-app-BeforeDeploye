@@ -1,14 +1,15 @@
 'use client'
-import React from 'react'
+import React, { Suspense } from 'react'
 import "react-image-gallery/styles/css/image-gallery.css"
 import ReactImageGallery from 'react-image-gallery'
-
+import CustomSkeleton from '../features/CustomSkeleton'
 
 
 const MainSlider = ({value}) => {
 
   return (
-    <div>
+  <div>
+    <Suspense fallback={<CustomSkeleton component={'MainSlider'}/>}>
       <ReactImageGallery 
      items={value}
      autoPlay={true}
@@ -21,7 +22,8 @@ const MainSlider = ({value}) => {
      isRTL={true}
      fullscreen={true}
      />
-     </div>
+    </Suspense>
+  </div>
   )
 }
 

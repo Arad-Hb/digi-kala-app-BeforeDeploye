@@ -15,10 +15,7 @@
     align-items: center;
     margin: 20px 30px;
 }
-.appSourcesLogo{
-    width: 44px;
-    height: 44px;
-}
+
 .appSourcesTitle{
 color: white;
 font-size: 24px;
@@ -36,10 +33,6 @@ margin-right: 30px;
  text-decoration: none;
 margin: 0px 20px;
 }
-.appSourcesImage{
-    width: 142px;
-    height: 44px;
-    }
 .otherAppSourcesButton{
 background-color: white;
 border-radius: 7px;

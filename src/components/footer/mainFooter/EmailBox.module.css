@@ -1,9 +1,10 @@
-
 .title{
-font-weight: bold;
+    color: #3f4064;
+    font-weight: bold;
+    font-size: 14px;
 }
 .emailContainer{
- margin: 10px 5px;
+ margin: 20px 5px;
 }
 .emailForm{
     display: flex;

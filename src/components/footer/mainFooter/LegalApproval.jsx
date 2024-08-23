@@ -1,27 +1,22 @@
-'use client'
 import React from 'react'
 import styles from './LegalApproval.module.css'
-import Link from 'next/link'
+import Data from '../../../../files/footerData.json'
+import NavLink from '@/components/features/NavLink'
 import Image from 'next/image'
 
 const LegalApproval = () => {
+    const data=Data[5]
   return (
     <div className={`${styles.outerContainer}`}>
-        <div className={`${styles.legalLogo}`}>
-            <Link href={'/'} className={`${styles.legalLink}`}>
-                <Image src={'/images/rezi.png'} width={75} height={75} alt='rezayatmandi' className={`${styles.LegalImage}`}/>
-            </Link>
-        </div>
-        <div className={`${styles.legalLogo}`}>
-            <Link href={'/'} className={`${styles.legalLink}`}>
-                <Image src={'/images/kasbokar.png'} width={75} height={75} alt='kasbo kar' className={`${styles.LegalImage}`}/>
-            </Link>
-        </div>
-        <div className={`${styles.legalLogo}`}>
-            <Link href={'/'} className={`${styles.legalLink}`}>
-                <Image src={'/images/enamad.png'} width={75} height={75} alt='enamad' className={`${styles.LegalImage}`}/>
-            </Link>
-        </div>
+        {
+            data.legalApproval.map(item=>{
+                return(
+                    <div className={`${styles.legalLogo}`}>
+                        <NavLink url={item.link}><Image src={item.src} width={75} height={75} alt={item.name} className={`${styles.LegalImage}`}/></NavLink>
+                    </div>
+                )
+            })
+        }
     </div>
   )
 }

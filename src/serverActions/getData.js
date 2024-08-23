@@ -8,7 +8,9 @@ export async function getData(url) {
     else {
         const data = await response.json()
 
-         
+         setTimeout(() => {
+            console.log('time out ');
+         }, 5000);
         return data
     }
   }

@@ -1,17 +1,20 @@
-'use client'
-import Link from 'next/link'
 import React from 'react'
 import styles from './CustomerServices.module.css'
+import Data from '../../../../files/footerData.json'
+import NavLink from '@/components/features/NavLink'
 
 const CustomerServices = () => {
+  const data=Data[3]
   return (
     <div className={`${styles.outerContainer}`}>
         <h3 className={`${styles.title}`}>خدمات مشتریان</h3>
-        <Link href={'https://about.digikala.com/newsroom/'} className={`${styles.link}`}>پاسخ به پرسش های متداول</Link>
-        <Link href={'https://www.digikala.com/landings/seller-introduction/'} className={`${styles.link}`}>رویه های بازگرداندن کالا</Link>
-        <Link href={'https://careers.digikala.com/'} className={`${styles.link}`}>شرایط استفاده</Link>
-        <Link href={'https://digikalapublic.whistleblowernetwork.net/setup'} className={`${styles.link}`}>حریم خصوصی</Link>
-        <Link href={'https://www.digikala.com/page/contact-us/'} className={`${styles.link}`}>گزارش باگ</Link>
+        {
+            data.customerServices.map(item=>{
+                return(
+                    <NavLink url={item.link}><div className={`${styles.link}`}>{item.text}</div></NavLink>
+                )
+            })
+        }
     </div>
   
   )

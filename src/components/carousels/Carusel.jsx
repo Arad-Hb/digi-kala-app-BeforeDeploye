@@ -8,6 +8,7 @@ import { PrevArrow } from './CaruselArrow';
 import Card from "../productCard/Card";
 import NavLink from "../features/NavLink";
 import Image from "next/image";
+import CustomSkeleton from "../features/CustomSkeleton";
 
 
 const Carusel = ({products,dataType}) => {

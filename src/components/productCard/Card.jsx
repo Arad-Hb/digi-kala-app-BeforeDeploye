@@ -1,13 +1,15 @@
 import Image from 'next/image'
-import React from 'react'
+import React, { Suspense } from 'react'
 import styles from "./Card.module.css"
 import AddButton from './AddButton'
 import NavLink from '../features/NavLink'
+import CustomSkeleton from '../features/CustomSkeleton'
 
 
 const Card = ({product}) => {
   
   return (
+    <Suspense fallback={<CustomSkeleton component={'Card'}/>}>
     <div className={`${styles.cardContainer}`}>
         <div className={`${styles.header}`}>
           <span className={`${styles.title}`}>
@@ -41,6 +43,7 @@ const Card = ({product}) => {
           {product.stock===0?<label className={`${styles.outOfStockLabel}`}>ناموجود</label>:<AddButton product={product}/>}
         </div>
     </div>
+    </Suspense>
   )
 }
 

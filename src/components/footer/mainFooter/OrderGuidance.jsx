@@ -1,15 +1,20 @@
-'use client'
 import React from 'react'
 import styles from './OrderGuidance.module.css'
-import Link from 'next/link'
+import Data from '../../../../files/footerData.json'
+import NavLink from '@/components/features/NavLink'
 
 const OrderGuidance = () => {
+  const data=Data[4]
   return (
     <div className={`${styles.outerContainer}`}>
-        <span className={`${styles.title}`}>راهنمای خرید از دیجی‌کالا</span>
-        <Link href={'https://about.digikala.com/newsroom/'} className={`${styles.link}`}>نحوه ثبت سفارش</Link>
-        <Link href={'https://www.digikala.com/landings/seller-introduction/'} className={`${styles.link}`}>رویه ارسال سفارش</Link>
-        <Link href={'https://careers.digikala.com/'} className={`${styles.link}`}>شیوه های پرداخت</Link>
+        <h3 className={`${styles.title}`}>راهنمای خرید از دیجی‌کالا</h3>
+        {
+            data.orderGuidance.map(item=>{
+                return(
+                    <NavLink url={item.link}><div className={`${styles.link}`}>{item.text}</div></NavLink>
+                )
+            })
+        }
     </div>
   )
 }

@@ -9,8 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@nextui-org/skeleton": "^2.0.31",
+    "@nextui-org/system": "^2.2.5",
+    "@nextui-org/theme": "^2.2.9",
     "@reduxjs/toolkit": "^2.2.6",
     "formik": "^2.4.6",
+    "framer-motion": "^11.3.29",
     "js-cookie": "^3.0.5",
     "js-cookies": "^1.0.4",
     "next": "14.2.5",
@@ -28,6 +32,7 @@
     "redux-logger": "^3.0.6",
     "redux-persist": "^6.0.0",
     "slick-carousel": "^1.8.1",
+    "tailwindcss": "^3.4.10",
     "vazirmatn": "^33.0.3",
     "yup": "^1.4.0"
   }

@@ -1,17 +1,13 @@
 
 import React from 'react'
 import styles from './Loading.module.css'
+import Image from 'next/image'
 
-const Loading = ({component}) => {
+const Loading = () => {
   return (
     <div className={`${styles.container}`}>
-      {
-        component==='Home'?<span className={`${styles.homeLoader}`}>L &nbsp; ading</span>:
-        component==='User'?<span className={`${styles.userLoader}`}></span>:
-        component==='Product'?<span className={`${styles.productLoader}`}></span>:
-        null
-      }
-       
+      <Image width={200} height={100} alt='digikala' src={'/images/digi.svg'}/>
+      <span className={`${styles.productLoader}`}></span>
     </div>
   )
 }

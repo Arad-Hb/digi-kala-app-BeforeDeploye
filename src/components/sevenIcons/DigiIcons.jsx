@@ -1,9 +1,10 @@
 import Image from 'next/image'
-import React from 'react'
+import React, { Suspense } from 'react'
 import styles from './DigiIcons.module.css'
 import { IoIosMore } from "react-icons/io";
 import NavLink from '../features/NavLink';
 import { getData } from '@/serverActions/getData';
+import CustomSkeleton from '../features/CustomSkeleton';
 
 
 const DigiIcons = async() => {
@@ -11,6 +12,7 @@ const DigiIcons = async() => {
   const data=await getData("SevenIcons")
   
   return (
+  <Suspense fallback={<CustomSkeleton component={'DigiIcons'}/>}>
     <div className={`${styles.iconsContainer}`}>
         {
             data.map(item=>{
@@ -23,8 +25,7 @@ const DigiIcons = async() => {
                       </div>
                     </NavLink>  
                   </div>
-                )
-                
+                ) 
             })
         }
         <div className={`${styles.dottedIconCard}`}>
@@ -36,6 +37,7 @@ const DigiIcons = async() => {
           </NavLink>  
         </div>
     </div>
+  </Suspense>
   )
 }
 

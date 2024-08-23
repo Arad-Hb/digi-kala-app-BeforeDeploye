@@ -1,8 +1,7 @@
-'use client'
 import React from 'react'
 import styles from './Partners.module.css'
-import Link from 'next/link'
 import Data from '../../../../files/footerData.json'
+import NavLink from '@/components/features/NavLink'
 
 
 const Partners = () => {
@@ -16,9 +15,11 @@ const Partners = () => {
         {
             data.partners.map(item=>{
                 return(
-                    <Link href={`${item.link}`}  className={`${styles.partnerLink}`}>
-                        <img src={`/images/${item.name}.svg`}  className={`${styles.partnerImage}`} alt={`${item.name}`}/>
-                    </Link>
+                    <NavLink url={`${item.link}`}>
+                        <div className={`${styles.partnerLink}`}>
+                            <img src={`/images/${item.name}.svg`}  className={`${styles.partnerImage}`} alt={`${item.name}`}/>
+                        </div>
+                    </NavLink>
                 )
             })
         }

@@ -8,10 +8,9 @@ import CategoriesItems from "@/components/categorieItems/CategoriesItems";
 import MainSlider from "@/components/slider/MainSlider";
 import BrandsCarousel from "@/components/carousels/BrandsCarousel";
 import { getData } from "@/serverActions/getData";
-import Skeleton from "react-loading-skeleton";
-import 'react-loading-skeleton/dist/skeleton.css'
 import { Suspense } from "react";
 import MainLayout from "@/components/mainLayout/MainLayout";
+import CustomSkeleton from "@/components/features/CustomSkeleton";
 
 
 export default async function Home() {
@@ -21,18 +20,12 @@ export default async function Home() {
   return (
     <>
     <MainLayout>
-      <Suspense fallback={<h1>main slider is loading...</h1>}>
-        <div><MainSlider value={data}/></div>
-      </Suspense>
+      <div><MainSlider value={data}/></div>
       <div><CategoriesItems/></div>
       <div><SingleBanner/></div>
-      <Suspense fallback={<h1>digi icons is loading...</h1>}>
-        <div><DigiIcons/></div>
-      </Suspense>
+      <div><DigiIcons/></div>
       <div><SmallBanner/></div>
-      <Suspense fallback={<h1>incredibale offer is loading...</h1>}>
-        <div><IncredibleOffers/></div>
-      </Suspense>
+      <div><IncredibleOffers/></div>
       <div><LargeBanner/></div>
       <div><BrandsCarousel/></div>
     </MainLayout>

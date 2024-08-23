@@ -28,6 +28,46 @@
       
     ]
         
+},
+{
+    "aboutUs":[
+        {"link":"https://about.digikala.com/newsroom/" , "text":"اتاق خبر دیجی کالا"},
+        {"link":"https://www.digikala.com/landings/seller-introduction/" , "text":"فروش در دیجی کالا"},
+        {"link":"https://careers.digikala.com/" , "text":"فرصت های شغلی"},
+        {"link":"https://digikalapublic.whistleblowernetwork.net/setup" , "text":"گزارش تخلف در دیجی کالا"},
+        {"link":"https://www.digikala.com/page/contact-us/" , "text":"تماس با دیجی کالا"},
+        {"link":"https://about.digikala.com/" , "text":"درباره دیجی کالا"}
+    ]    
+},
+{
+    "customerServices":[
+        {"link":"https://about.digikala.com/newsroom/" , "text":"پاسخ به پرسش های متداول"},
+        {"link":"https://www.digikala.com/landings/seller-introduction/" , "text":"رویه های بازگرداندن کالا"},
+        {"link":"https://careers.digikala.com/" , "text":"شرایط استفاده"},
+        {"link":"https://digikalapublic.whistleblowernetwork.net/setup" , "text":"حریم خصوصی"},
+        {"link":"https://www.digikala.com/page/contact-us/" , "text":"گزارش باگ"}
+    ]    
+},
+{
+    "orderGuidance":[
+        {"link":"https://about.digikala.com/newsroom/" , "text":"نحوه ثبت سفارش"},
+        {"link":"https://www.digikala.com/landings/seller-introduction/" , "text":"رویه ی ارسال سفارش"},
+        {"link":"https://careers.digikala.com/" , "text":"شیوه های پرداخت"}
+    ]    
+},
+{
+    "legalApproval":[
+        {"link":"https://logo.samandehi.ir/Verify.aspx?id=28177&p=uiwkmcsirfthjyoejyoe" , "name":"rezayatmandi","src":"/images/rezi.png"},
+        {"link":"https://www.ecunion.ir/verify/digikala.com?token=35858775acf0232a8063" , "name":"kasbo kar","src":"/images/kasbokar.png"},
+        {"link":"https://trustseal.enamad.ir/?id=19077&Code=sScdOJOzhFxtcEqkjP7P" , "name":"eNamad","src":"/images/enamad.png"}
+    ]    
+},
+{
+    "applicationSources":[
+        {"link":"https://cafebazaar.ir/app/com.digikala?metrix_token=k3of5r&metrix_user_id=f05d4a6c-f6e0-4a4b-8572-34835cee8232&utm_source=cafebazaar&utm_campaign=home_page" , "name":"bazar","src":"/images/bazzarButton.svg"},
+        {"link":"https://myket.ir/app/com.digikala?utm_source=search-ads-gift&utm_source=myket&utm_medium=cpc&utm_campaign=home_page" , "name":"my ket","src":"/images/myketButton.svg"},
+        {"link":"https://sibapp.com/applications/digikala?metrix_token=4gluyi&metrix_user_id=f05d4a6c-f6e0-4a4b-8572-34835cee8232&utm_source=ios&utm_campaign=sibapp&utm_content=home_page" , "name":"sib app","src":"/images/sibAppButton.svg"}
+    ]    
 }
     
 ]
