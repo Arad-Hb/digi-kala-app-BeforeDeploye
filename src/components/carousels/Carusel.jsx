@@ -111,7 +111,7 @@ const Carusel = ({products,dataType}) => {
       >
           {products.map((item) => (
             dataType==="product"?<Card key={item.id} product = {item}/>:
-            <NavLink productId={null} categoryName={null} >
+            <NavLink>
                 <Image width={110} height={90} style={{ height: 'auto',alignmentBaseline:'central' ,marginBottom:'30px'}} alt='brand' src={`/images/${item.imageUrl}`} />
             </NavLink>
           ))}

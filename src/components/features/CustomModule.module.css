@@ -1,10 +1,17 @@
 .container{
+    
     display: flex;
     flex-direction: column;
+}
+.button{
+    margin: 5px 20px;
+    font-size: 14px;
+}
+.button:hover{
+    color: rgb(54, 13, 204);
 }
 .children{
     display: flex;
     position: absolute;
     z-index: 100;
-    top: 40px;
 }

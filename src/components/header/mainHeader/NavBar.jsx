@@ -7,13 +7,13 @@ import { GrPhoneVertical } from "react-icons/gr"
 
 const NavBar = () => {
     const navItems=[
-        {title:'شگفت انگیزها', Icon:RiDiscountPercentLine,style:'navItem',url:'/'},
-        {title:'سوپر مارکت', Icon:RiShoppingBasketLine,style:'navItem',url:'/'},
-        {title:'کارت هدیه', Icon:MdCardGiftcard,style:'navItem',url:'/'},
+        {title:'شگفت انگیزها', Icon:RiDiscountPercentLine,style:'navItem',url:'/products/incredibleOffers'},
+        {title:'سوپر مارکت', Icon:RiShoppingBasketLine,style:'navItem',url:'/contactUs/5'},
+        {title:'کارت هدیه', Icon:MdCardGiftcard,style:'navItem',url:'/contactUs/4'},
         {title:'پرفروش ترین ها', Icon:RiFireLine,style:'navItemResponsive',url:'/'},
-        {title:'تخفیف ها و پیشنهادها', Icon:RiCoupon3Line,style:'navItemResponsive',url:'/'},
-        {title:'در دیجی کالا بفروشید!', Icon:GrPhoneVertical,style:'navItem',url:'/'},
-        {title:'سوالی دارید؟', Icon:GrPhoneVertical,style:'navItem',url:'/'}
+        {title:'تخفیف ها و پیشنهادها', Icon:RiCoupon3Line,style:'navItemResponsive',url:'/contactUs/4'},
+        {title:'در دیجی کالا بفروشید!', Icon:GrPhoneVertical,style:'navItem',url:'/contactUs'},
+        {title:'سوالی دارید؟', Icon:GrPhoneVertical,style:'navItem',url:'/contactUs/form'}
     ]
     
   return (

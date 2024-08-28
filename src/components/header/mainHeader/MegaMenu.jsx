@@ -5,7 +5,7 @@ import MegaMenuContainer from './MegaMenuContainer'
 const MegaMenu = () => {
   return (
     <>
-        <CustomModule button={'megaMenuButton'}>
+        <CustomModule button={'megaMenuButton'} topPosition={40}>
             <MegaMenuContainer/>
         </CustomModule>
     </>

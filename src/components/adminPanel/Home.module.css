@@ -1,0 +1,47 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+    width: 100%;
+    margin-top: 3px;
+}
+.items{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.item{
+display: flex;
+flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #7b7fa2;
+    background-color:white ;
+    margin: 0px 40px;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+    padding: 20px 40px;
+}
+.itemName{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+}
+.icon{
+ font-size: 20px;
+}
+.name{
+
+}
+.itemCount{
+
+}
+.charts{
+    color: #7b7fa2;
+    background-color:white ;
+    margin: 60px 40px 20px 40px;
+    padding: 10px 20px;
+}

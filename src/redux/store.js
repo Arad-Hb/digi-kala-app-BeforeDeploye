@@ -5,6 +5,7 @@ import shoppingCartSlice from "./features/slices/shoppingCartSlice"
 import menuSlice from './features/slices/menuSlice'
 import StaticImagesSlice from './features/slices/StaticImagesSlice'
 import UsersSlice from './features/slices/UsersSlice'
+import AdminSlice from './features/slices/AdminSlice'
 
 
 const configuration = {
@@ -16,7 +17,8 @@ const rootReducer = combineReducers({
   shoppingReducer:shoppingCartSlice,
   menuReducer:menuSlice,
   staticImagesReducer:StaticImagesSlice,
-  userReducer:UsersSlice
+  userReducer:UsersSlice,
+  adminReducer:AdminSlice
 })
 
 const persistableReducer = persistReducer(configuration , rootReducer)

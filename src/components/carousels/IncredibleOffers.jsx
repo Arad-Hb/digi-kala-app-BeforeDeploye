@@ -18,7 +18,7 @@ const IncredibleOffers = async() => {
                 <Image src="/images/amazing-word.svg" width={100} height={30} className={`${styles.amzingWord}`}/>
             </div>
             <div className={`${styles.incOfferLink}`}>
-                <NavLink productId={null} categoryName={"incredibleOffers"} >مشاهده همه</NavLink>
+                <NavLink url={"/products/incredibleOffers"} >مشاهده همه</NavLink>
             </div>
         </div>
         <div className={`${styles.carouselContainer}`}><Carusel products={incredibleOffer} dataType={"product"}/></div>

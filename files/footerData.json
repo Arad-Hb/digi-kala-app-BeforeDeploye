@@ -32,27 +32,27 @@
 {
     "aboutUs":[
         {"link":"https://about.digikala.com/newsroom/" , "text":"اتاق خبر دیجی کالا"},
-        {"link":"https://www.digikala.com/landings/seller-introduction/" , "text":"فروش در دیجی کالا"},
-        {"link":"https://careers.digikala.com/" , "text":"فرصت های شغلی"},
-        {"link":"https://digikalapublic.whistleblowernetwork.net/setup" , "text":"گزارش تخلف در دیجی کالا"},
-        {"link":"https://www.digikala.com/page/contact-us/" , "text":"تماس با دیجی کالا"},
+        {"link":"/contactUs/10" , "text":"فروش در دیجی کالا"},
+        {"link":"/contactUs/10" , "text":"فرصت های شغلی"},
+        {"link":"/contactUs/form" , "text":"گزارش تخلف در دیجی کالا"},
+        {"link":"/contactUs/form" , "text":"تماس با دیجی کالا"},
         {"link":"https://about.digikala.com/" , "text":"درباره دیجی کالا"}
     ]    
 },
 {
     "customerServices":[
-        {"link":"https://about.digikala.com/newsroom/" , "text":"پاسخ به پرسش های متداول"},
-        {"link":"https://www.digikala.com/landings/seller-introduction/" , "text":"رویه های بازگرداندن کالا"},
+        {"link":"/contactUs/9" , "text":"پاسخ به پرسش های متداول"},
+        {"link":"/contactUs/3" , "text":"رویه های بازگرداندن کالا"},
         {"link":"https://careers.digikala.com/" , "text":"شرایط استفاده"},
         {"link":"https://digikalapublic.whistleblowernetwork.net/setup" , "text":"حریم خصوصی"},
-        {"link":"https://www.digikala.com/page/contact-us/" , "text":"گزارش باگ"}
+        {"link":"/contactUs/form" , "text":"گزارش باگ"}
     ]    
 },
 {
     "orderGuidance":[
-        {"link":"https://about.digikala.com/newsroom/" , "text":"نحوه ثبت سفارش"},
-        {"link":"https://www.digikala.com/landings/seller-introduction/" , "text":"رویه ی ارسال سفارش"},
-        {"link":"https://careers.digikala.com/" , "text":"شیوه های پرداخت"}
+        {"link":"/contactUs/1" , "text":"نحوه ثبت سفارش"},
+        {"link":"/contactUs/2" , "text":"رویه ی ارسال سفارش"},
+        {"link":"/contactUs/1" , "text":"شیوه های پرداخت"}
     ]    
 },
 {

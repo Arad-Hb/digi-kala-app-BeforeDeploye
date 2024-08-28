@@ -1,0 +1,12 @@
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.sideBar{
+    flex-basis: 20%;
+}
+.Children{
+    flex-basis:80%;
+}

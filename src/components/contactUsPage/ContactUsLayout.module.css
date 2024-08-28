@@ -1,0 +1,28 @@
+.outerContainer{
+display: flex;
+flex-direction: column;
+justify-content: center;
+width: 100%;
+}
+.main{
+
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.questionsCategory{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.connectionContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

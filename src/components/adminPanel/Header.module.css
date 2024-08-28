@@ -1,0 +1,51 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    background-color: #ffffff;
+}
+.dropDown{
+position: relative;
+}
+.dropDownContent{
+display: flex;
+flex-direction: column;
+background-color: white;
+box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+padding: 10px 10px;
+}
+.item{
+    display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+    padding: 10px 10px;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+}
+.icon{
+font-size: 16px;
+margin-left: 5px;
+}
+.text{
+    font-size: 12px;
+   
+}
+.date{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   align-items: center;
+   box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+    color: #656c90;
+    padding: 1px 10px;
+}
+.dateIcon{
+font-size: 28px;
+margin-right: 10px;
+}
+.dateText{
+    font-size: 14px;
+}

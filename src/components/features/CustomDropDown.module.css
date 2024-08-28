@@ -1,0 +1,23 @@
+.container{
+    width: 100%;
+    direction: rtl;
+    display: flex;
+    flex-direction: column;
+   
+    padding: 20px 10px;
+    border-bottom: 1px solid silver;
+}
+
+.dropDownLink{
+   text-decoration: none; 
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+
+.dropDownContent{
+    width: 100%;
+display: flex;
+flex-wrap: wrap;
+margin-top: 20px;
+}

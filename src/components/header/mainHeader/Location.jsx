@@ -7,7 +7,7 @@ const Location = () => {
 
   return (
     <div className={`${styles.outerContainer}`}>
-      <CustomModule button={'locationButton'} leftPosition={5}>
+      <CustomModule button={'locationButton'} leftPosition={5} topPosition={30}>
         <div className={`${styles.locationContent}`}>
           <Countries/>
         </div>

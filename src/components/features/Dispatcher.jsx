@@ -3,6 +3,7 @@ import React from 'react'
 import { useDispatch } from 'react-redux'
 import { addId } from '@/redux/features/slices/menuSlice'
 import { addItem, decreaseItem, increaseItem, removeItem } from '@/redux/features/slices/shoppingCartSlice'
+import { setAdminIsLogedOut } from '@/redux/features/slices/AdminSlice'
 
 const Dispatcher = ({children,event,action,value}) => {
    const dispatch= useDispatch()
@@ -19,6 +20,7 @@ const Dispatcher = ({children,event,action,value}) => {
     action==='decreaseItem' && dispatch(decreaseItem(value))
     action==='removeItem' && dispatch(removeItem(value))
     action==='increaseItem' && dispatch(increaseItem(value))
+    action==='setAdminIsLogedOut' && dispatch(setAdminIsLogedOut())
    }
   return (
     <div onClick={()=>OnClickHandler()} onMouseEnter={()=>OnMouseEnterHandler()}>

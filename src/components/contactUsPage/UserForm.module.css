@@ -1,0 +1,99 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #e0e0e2;
+border-radius: 14px;
+margin: 10px 30px;
+padding: 20px 30px;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    width: 15%;
+border-bottom: 3px solid red;
+margin-bottom: 30px;
+font-size: 26px;
+font-weight: 800;
+color: #3f4064;
+}
+.commonQuestions{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e0e0e2;
+}
+.commonQuestionsText{
+font-size: 14px;
+color: #1a747d;
+}
+.commonQuestionsButton{
+border: 1px solid #2ec5d7;
+border-radius: 14px;
+color: #2ec5d7;
+padding: 10px 15px;
+font-size: 14px;
+font-weight: bold;
+transition: all .5s;
+}
+.commonQuestionsButton:hover{
+    transition: all .5s;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.main{
+   width: 60%; 
+   margin: 0px auto;
+}
+
+.fieldsContainer{
+    display: flex;
+    flex-direction: column;
+}
+.label{
+    color: #3f4064;
+margin: 10px 10px;
+}
+.field{
+border: 1px solid #e0e0e2;
+border-radius: 14px;
+outline: none;
+padding: 10px 10px;
+}
+.messageField{
+    border: 1px solid #e0e0e2;
+    border-radius: 14px;
+    outline: none;
+    padding: 60px 10px;
+}
+.button{
+color: white;
+background-color: #e0e0e2;
+border: none;
+outline: none;
+font-size: 18px;
+border-radius: 14px;
+width: 20%;
+padding: 10px 5px;
+margin: 10px 10px;
+transition: all .5s;
+
+}
+.button:hover{
+    transition: all .5s;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px 10px;
+}
+.infoIcon{
+margin: 2px 5px;
+}
+.infoText{
+font-size: 10px;
+}

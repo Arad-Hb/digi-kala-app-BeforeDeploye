@@ -1,0 +1,70 @@
+.outerContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+.title{
+font-size: 26px;
+font-weight: 800;
+color: #3f4064;
+margin: 20px auto;
+}
+.container{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+width: 100%;
+border: 1px solid #f0f0f1;
+border-radius: 14px;
+background-color: #f8f8f8;
+}
+.phoneNumber{
+    flex-basis: 50%;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 20px 30px;
+border-left: 1px solid #f0f0f1;
+}
+.number{
+color: #3f4064;
+font-size: 30px;
+font-weight: bold;
+
+}
+.formContainer{
+    flex-basis: 50%;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 20px 40px;
+}
+.icon{
+color: #e0e0e2;
+font-size: 70px;
+font-weight: 800;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.textTitle{
+color: #81858b;
+margin-bottom: 20px;
+}
+.formButton{
+    transition: all .5s;
+border: 1px solid #3f4064;
+border-radius: 14px;
+padding: 10px 30px;
+}
+.formButton:hover{
+    transition: all .5s;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}

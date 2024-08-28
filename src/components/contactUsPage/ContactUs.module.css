@@ -1,0 +1,34 @@
+.outerContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-image: url("https://www.digikala.com/statics/img/svg/faq/faq-pattern.svg");
+    background-repeat: repeat-x;
+}
+.container{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+}
+
+.itemsImage{
+    padding: 10px;
+    background-color:#f3fbfc ;
+    border-radius: 100%;
+}
+.itemsText{
+    font-size: 26px;
+font-weight: 800;
+color: #3f4064;
+
+}

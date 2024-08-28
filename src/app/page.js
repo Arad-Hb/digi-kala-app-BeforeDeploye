@@ -11,6 +11,7 @@ import { getData } from "@/serverActions/getData";
 import { Suspense } from "react";
 import MainLayout from "@/components/mainLayout/MainLayout";
 import CustomSkeleton from "@/components/features/CustomSkeleton";
+import AnimatedTextWord from "@/components/animation/AnimatedTextWord";
 
 
 export default async function Home() {
@@ -21,6 +22,7 @@ export default async function Home() {
     <>
     <MainLayout>
       <div><MainSlider value={data}/></div>
+      <AnimatedTextWord>این یک متن امتحانی است برای انیمیشن تست</AnimatedTextWord >
       <div><CategoriesItems/></div>
       <div><SingleBanner/></div>
       <div><DigiIcons/></div>

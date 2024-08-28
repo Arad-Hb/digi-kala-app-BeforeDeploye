@@ -13,6 +13,12 @@ const nextConfig = {
             hostname: '*.digikala.com',
             port: '',
             pathname: '/**',
+          },
+          {
+            protocol: 'https',
+            hostname: '*images.mobileshop.eu',
+            port: '',
+            pathname: '/**',
           }
         ],
       }
