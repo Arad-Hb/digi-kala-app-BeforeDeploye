@@ -44,10 +44,11 @@ const LoginSignupForm = ({showSignup}) => {
     const secondRequest=JSON.stringify(Data)
 
     if(formName==='signup'){
-        postData("users/register",firstRequest)
+        postData("users/register",secondRequest)
         .then(response => {
             if (response.id === 0) {
                 alert("نام کاربری یا رمز عبور تکراریست!!!!!!")
+                return router.push('/user')
             }
             else {
                 postData("users/login", secondRequest)
@@ -55,7 +56,7 @@ const LoginSignupForm = ({showSignup}) => {
                         alert("ثبت نام با موفقیت انجام شد.")
                         Cookies.set('jwt',loginResponse.token)
                         dispatch(setUserData(values))
-                        router.push('/user/dashboard')
+                        return router.push('/user/dashboard')
                     })
             }
         })
@@ -65,12 +66,12 @@ const LoginSignupForm = ({showSignup}) => {
             
     }
     else{
-      postData("users/login",firstRequest )
+      postData("users/login",secondRequest )
             .then(response => {
                 if (response.hasOwnProperty("token")) {
                   Cookies.set('jwt',response.token)
                   revalidate("topBanner")
-                  router.push('/user/dashboard')
+                  return router.push('/user/dashboard')
                 }
                 else {
                     alert("نام کاربری یا کلمه عبور صحیح نمی باشد!!!!")

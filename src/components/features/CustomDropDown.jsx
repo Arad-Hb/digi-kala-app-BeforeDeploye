@@ -8,12 +8,17 @@ const CustomDropDown = (props) => {
   return (
     <div className={`${styles.container}`}>
         <div className={`${styles.dropDownTitle}`}>
-            <a href='#' onClick={()=>setDisplay(!display)} className={`${styles.dropDownLink}`}>
+            <div onClick={()=>setDisplay(!display)} className={`${styles.dropDownLink}`}>
                 <div className={`${styles.title}`}>{props.title}</div>
                 <div className={`${styles.icon}`}>{display ? <IoIosArrowUp />:<IoIosArrowDown />}</div>
-            </a>
+            </div>
         </div>
-        {display && <div className={`${styles.dropDownContent}`}>{props.content}</div>}
+        {display && 
+          <div className={`${styles.dropDownContent}`}>
+          { props.content?<span>{props.content}</span>:
+                    <span>{props.children}</span>
+          }
+          </div>}
     </div>
   )
 }

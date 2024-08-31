@@ -16,7 +16,7 @@ const page = async() => {
   const usersLength=SetArreyCount(usersData)
   
   return (
-    <><Home productsCout={productsLength} usersCount={usersLength}/></>
+    <Home productsCout={productsLength} usersCount={usersLength}/>
   )
 }
 

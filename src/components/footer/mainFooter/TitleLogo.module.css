@@ -2,12 +2,6 @@
     display: flex;
     flex-direction: column;
 }
-.logo{
-
-}
-.logoImage{
-
-}
 .information{
 display: flex;
 flex-direction: row;
@@ -20,6 +14,28 @@ width: 1px;
 height: 20px;
 margin: 0px 5px;
 }
-.ContactUsText{
 
-}
+@media (max-width: 480px) {
+    .information{display: none;}
+   }
+     
+   /* Media Query for low resolution  Tablets, Ipads */
+   @media (min-width: 481px) and (max-width: 767px) {
+    .information{display: none;}
+   }
+     
+   /* Media Query for Tablets Ipads portrait mode */
+   @media (min-width: 768px) and (max-width: 1024px){
+    
+    .information{display: none;}
+   }
+     
+   /* Media Query for Laptops and Desktops */
+   @media (min-width: 1025px) and (max-width: 1280px){
+   
+   }
+     
+   /* Media Query for Large screens */
+   @media (min-width: 1281px) {
+   
+   }

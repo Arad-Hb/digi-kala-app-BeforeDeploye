@@ -1,0 +1,54 @@
+.container{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+   justify-content: center;
+   padding: 0px 0px 0px 5px;
+
+}
+.addNewProduct{
+ width: 100%;
+ background-color: white;
+ 
+}
+.table{
+    width: 900px;
+    margin: 20px auto;
+    background-color: white;
+}
+
+@media (max-width: 480px) {
+    .table{
+        width: 900px;
+        margin: 20px auto;
+        background-color: white;
+    }
+   }
+     
+   /* Media Query for low resolution  Tablets, Ipads */
+   @media (min-width: 481px) and (max-width: 767px) {
+    .table{
+        width: 900px;
+        margin: 20px auto;
+        background-color: white;
+    }
+   }
+     
+   /* Media Query for Tablets Ipads portrait mode */
+   @media (min-width: 768px) and (max-width: 1024px){
+    .table{
+        width: 900px;
+        margin: 20px auto;
+        background-color: white;
+    }
+   }
+     
+   /* Media Query for Laptops and Desktops */
+   @media (min-width: 1025px) and (max-width: 1280px){
+   
+   }
+     
+   /* Media Query for Large screens */
+   @media (min-width: 1281px) {
+   
+   }

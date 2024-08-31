@@ -17,4 +17,3 @@ export async function postData(url, Body) {
             console.error(error);
         }
     }
- 

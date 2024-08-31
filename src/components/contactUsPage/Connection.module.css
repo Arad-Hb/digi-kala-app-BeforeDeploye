@@ -31,7 +31,7 @@ border-left: 1px solid #f0f0f1;
 }
 .number{
 color: #3f4064;
-font-size: 30px;
+font-size: 24px;
 font-weight: bold;
 
 }
@@ -68,3 +68,115 @@ padding: 10px 30px;
     transition: all .5s;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
+@media (max-width: 480px) {
+    .icon{display: none;}
+    .textTitle{
+        color: #81858b;
+        margin-bottom: 10px;
+        }
+        .title{
+            font-size: 22px;
+            font-weight: 800;
+            color: #3f4064;
+            margin: 10px auto;
+            }
+        .number{
+            color: #3f4064;
+            font-size: 14px;
+            font-weight: bold;
+            
+            }
+        .formButton{
+        transition: all .5s;
+        border: 1px solid #3f4064;
+        border-radius: 14px;
+        padding: 5px 10px;
+        font-size: 14px;
+        }
+        .container{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            border: 1px solid #f0f0f1;
+            border-radius: 14px;
+            background-color: #f8f8f8;
+            }
+            .phoneNumber{
+                
+            display: flex;
+           
+            justify-content: center;
+            align-items: center;
+            padding: 10px 20px;
+            border-bottom: 1px solid #f0f0f1;
+            }
+            .formContainer{
+                
+            display: flex;
+            
+            justify-content: center;
+            align-items: center;
+            padding: 10px 20px;
+            }
+   }
+     
+   /* Media Query for low resolution  Tablets, Ipads */
+   @media (min-width: 481px) and (max-width: 767px) {
+    .icon{display: none;}
+    .textTitle{
+        color: #81858b;
+        margin-bottom: 10px;
+        }
+        .number{
+            color: #3f4064;
+            font-size: 14px;
+            font-weight: bold;
+            
+            }
+        .formButton{
+        transition: all .5s;
+        border: 1px solid #3f4064;
+        border-radius: 14px;
+        padding: 5px 10px;
+        font-size: 12px;
+        }
+   }
+     
+   /* Media Query for Tablets Ipads portrait mode */
+   @media (min-width: 768px) and (max-width: 1024px){
+    .icon{
+        color: #e0e0e2;
+        font-size: 40px;
+        font-weight: 800;
+        }
+        .textTitle{
+            color: #81858b;
+            margin-bottom: 10px;
+            }
+            .number{
+                color: #3f4064;
+                font-size: 18px;
+                font-weight: bold;
+                
+                }
+            .formButton{
+            transition: all .5s;
+            border: 1px solid #3f4064;
+            border-radius: 14px;
+            padding: 5px 10px;
+            font-size: 14px;
+            }
+   
+   }
+     
+   /* Media Query for Laptops and Desktops */
+   @media (min-width: 1025px) and (max-width: 1280px){
+   
+   }
+     
+   /* Media Query for Large screens */
+   @media (min-width: 1281px) {
+   
+   }

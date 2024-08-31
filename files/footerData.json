@@ -1,20 +1,20 @@
 [{
     "partners":[
-        {"name":"digimag" , "Link":"https://www.digikala.com/mag/"},
-        {"name":"digipay" , "Link":"https://www.mydigipay.com/"},
-        {"name":"digistyle" , "Link":"https://www.digistyle.com/"},
-        {"name":"digiplus" , "Link":"https://www.digikala.com/plus/landing/"},
-        {"name":"digiclub" , "Link":"https://www.digikala.com/users/login/?backUrl=/digiclub/"},
-        {"name":"digijet" , "Link":"https://digikalajet.com/"},
-        {"name":"magnet" , "Link":"https://www.digikala.com/landings/magnet/?utm_source=Digikala_web&utm_medium=Footer"},
-        {"name":"digiMehr" , "Link":"https://www.digikala.com/mehr/"},
-        {"name":"diginext" , "Link":"https://diginext.ir/"},
-        {"name":"digiexpress" , "Link":"https://digiexpress.ir/"},
-        {"name":"ganjeh" , "Link":"https://ganje.net/?utm_source=Digikala_web&utm_medium=Footer"},
-        {"name":"digify" , "Link":"https://digify.shop/"},
-        {"name":"smartech" , "Link":"https://smartech.ir/"},
-        {"name":"digikala-business" , "Link":"https://www.digikalabusiness.com/"},
-        {"name":"digikala-service" , "Link":"https://www.digikala-service.com/"}
+        {"name":"digimag" , "Link":"/aboutUs"},
+        {"name":"digipay" , "Link":"/contactUs/7"},
+        {"name":"digistyle" , "Link":"/aboutUs"},
+        {"name":"digiplus" , "Link":"/aboutUs"},
+        {"name":"digiclub" , "Link":"/contactUs/8"},
+        {"name":"digijet" , "Link":"/contactUs/2"},
+        {"name":"magnet" , "Link":"/aboutUs"},
+        {"name":"digiMehr" , "Link":"/contactUs/17"},
+        {"name":"diginext" , "Link":"/aboutUs"},
+        {"name":"digiexpress" , "Link":"/contactUs/2"},
+        {"name":"ganjeh" , "Link":"/aboutUs"},
+        {"name":"digify" , "Link":"/aboutUs"},
+        {"name":"smartech" , "Link":"/aboutUs"},
+        {"name":"digikala-business" , "Link":"/aboutUs"},
+        {"name":"digikala-service" , "Link":"/aboutUs"}
     ]
         
 },
@@ -31,20 +31,20 @@
 },
 {
     "aboutUs":[
-        {"link":"https://about.digikala.com/newsroom/" , "text":"اتاق خبر دیجی کالا"},
+        {"link":"/aboutUs" , "text":"اتاق خبر دیجی کالا"},
         {"link":"/contactUs/10" , "text":"فروش در دیجی کالا"},
         {"link":"/contactUs/10" , "text":"فرصت های شغلی"},
         {"link":"/contactUs/form" , "text":"گزارش تخلف در دیجی کالا"},
         {"link":"/contactUs/form" , "text":"تماس با دیجی کالا"},
-        {"link":"https://about.digikala.com/" , "text":"درباره دیجی کالا"}
+        {"link":"/aboutUs" , "text":"درباره دیجی کالا"}
     ]    
 },
 {
     "customerServices":[
         {"link":"/contactUs/9" , "text":"پاسخ به پرسش های متداول"},
         {"link":"/contactUs/3" , "text":"رویه های بازگرداندن کالا"},
-        {"link":"https://careers.digikala.com/" , "text":"شرایط استفاده"},
-        {"link":"https://digikalapublic.whistleblowernetwork.net/setup" , "text":"حریم خصوصی"},
+        {"link":"/aboutUs" , "text":"شرایط استفاده"},
+        {"link":"/aboutUs" , "text":"حریم خصوصی"},
         {"link":"/contactUs/form" , "text":"گزارش باگ"}
     ]    
 },

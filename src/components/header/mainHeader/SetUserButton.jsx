@@ -12,7 +12,7 @@ const isAuthenticated=Authentication()
   return (
     <>
       {isAuthenticated?
-      <CustomModule button={'userButton'} leftPosition={100}>
+      <CustomModule button={'userButton'} leftPosition={100} topPosition={40}>
         <UserInfo user={isAuthenticated}/>
       </CustomModule>:
       <SignUpButton/>}

@@ -32,8 +32,8 @@ const ThemeProvider = () => {
         <div className={`${styles.buttonContainer}`}>
             <div className={`${styles.buttonHeader}`}>دیجی کالا</div>
             <div className={`${styles.buttonContent}`}>
-                <span  className={loginActive ?`${styles.activeButton}` : `${styles.inactiveButton}`} onClick={loginHandler}>ورود</span>
-                <span  className={signupActive ?`${styles.activeButton}` : `${styles.inactiveButton}`} onClick={signupHandler}>ثبت نام</span>
+                <span className={loginActive ?`${styles.activeButton}` : `${styles.inactiveButton}`} onClick={loginHandler}>ورود</span>
+                <span className={signupActive ?`${styles.activeButton}` : `${styles.inactiveButton}`} onClick={signupHandler}>ثبت نام</span>
             </div>
         </div>
     </div>

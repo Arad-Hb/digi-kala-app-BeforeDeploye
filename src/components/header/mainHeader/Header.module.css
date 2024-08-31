@@ -47,7 +47,7 @@ align-items: center;
 position: relative;
 }
 .megaMenu{
-flex-basis: 10%;
+flex-basis: 15%;
 }
 .navBar{
 flex-basis: 75%;
@@ -55,6 +55,51 @@ display: flex;
 flex-direction: row;
 }
 .location{
-    flex-basis: 12%;
+
+    flex-basis: 20%;
+    display: flex;
+    justify-content: left;
     position: relative;
+}
+@media (max-width: 480px) {
+    .topBanner{display: none;}
+    .basketSignup{display: none;}
+    .navBarContainer{display: none;} 
+    .mainHeader{width: 100%;display: flex;flex-direction: row;justify-content: center;align-items: center;margin: 10px auto;}
+    .searchLogo{flex-basis: 100%;display: flex;}
+    .logo{display: none;}
+    .searchBox{flex-basis: 100%;}
+}
+  
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+    .basketSignup{display: none;}
+    .topBanner{display: none;}
+    .navBarContainer{display: none;}
+    .mainHeader{width: 100%;display: flex;flex-direction: row;justify-content: center;align-items: center;margin: 10px auto;}
+    .searchLogo{flex-basis: 100%;display: flex;}
+    .logo{display: none;}
+    .searchBox{flex-basis: 100%;}
+}
+  
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px){
+    .topBanner{display: none;}
+    .basketSignup{display: none;}
+    .navBarContainer{display: none;}
+    .mainHeader{width: 100%;display: flex;flex-direction: row;justify-content: center;align-items: center;margin: 10px auto;}
+    .searchLogo{flex-basis: 100%;display: flex;}
+    .logo{display: none;}
+    .searchBox{flex-basis: 100%;}
+
+}
+  
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) and (max-width: 1280px){
+
+}
+  
+/* Media Query for Large screens */
+@media (min-width: 1281px) {
+
 }

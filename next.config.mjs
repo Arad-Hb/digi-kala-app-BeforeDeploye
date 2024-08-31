@@ -19,7 +19,14 @@ const nextConfig = {
             hostname: '*images.mobileshop.eu',
             port: '',
             pathname: '/**',
+          },
+          {
+            protocol: 'http',
+            hostname: 'localhost',
+            port: '',
+            pathname: '/**',
           }
+          
         ],
       }
 

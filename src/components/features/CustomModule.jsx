@@ -5,6 +5,7 @@ import UserButton from '../header/mainHeader/UserButton'
 import LocationButton from '../header/mainHeader/LocationButton'
 import MegaMenuButton from '../header/mainHeader/MegaMenuButton'
 import AdminButton from '../adminPanel/AdminButton'
+import AddNewProduct from '../adminPanel/AddNewProduct'
 
 
 const CustomModule = ({children,button,rightPosition,leftPosition,topPosition}) => {
@@ -29,6 +30,7 @@ const CustomModule = ({children,button,rightPosition,leftPosition,topPosition}) 
           buttonComponent==='locationButton'?<LocationButton/>:
           buttonComponent==='megaMenuButton'?<MegaMenuButton/>:
           buttonComponent==='AdminButton'?<AdminButton/>:
+          buttonComponent==='AddNewProduct'?<AddNewProduct/>:
           <span onMouseLeave={()=>{setDisplay("none")}} className={`${styles.button}`}>{buttonComponent}</span>}
         </div>
         <div style={contentStyles} className={`${styles.children}`} onMouseLeave={()=>{setDisplay("none")}} onClick={()=>{setDisplay("none")}}>{children}</div>

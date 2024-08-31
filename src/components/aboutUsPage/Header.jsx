@@ -3,10 +3,12 @@ import styles from './Header.module.css'
 import Image from 'next/image'
 import NavLink from '../features/NavLink'
 import CustomModule from '../features/CustomModule'
+import { GiHamburgerMenu } from "react-icons/gi";
 
 const Header = () => {
   return (
     <div className={`${styles.container}`}>
+        <div className={`${styles.burgerIcon}`}><GiHamburgerMenu /></div>
         <div className={`${styles.title}`}>
             <Image alt='red smile' width={32} height={12} src={'/images/smileRed.svg'}/>
             <span className={`${styles.text}`}>درباره گروه دیجی‌کالا</span>
@@ -16,8 +18,8 @@ const Header = () => {
                 <li className={`${styles.navBarItem}`}>
                     <CustomModule button={'درباره ما'} rightPosition={0} leftPosition={0} topPosition={40}>
                         <div className={`${styles.navBarLinks}`}>
-                            <NavLink url={'/aboutUs/هویت ما'}><span style={{position:'absolute',right:300}} className={`${styles.navBarLink}`}>هویت ما</span></NavLink>
-                            <NavLink url={'/aboutUs/تاریخچه دیجی کالا'}><span style={{position:'absolute',right:400}} className={`${styles.navBarLink}`}>تاریخچه دیجی کالا</span></NavLink>
+                            <NavLink url={'/aboutUs'}><span style={{position:'absolute',right:300}} className={`${styles.navBarLink}`}>هویت ما</span></NavLink>
+                            <NavLink url={'/aboutUs'}><span style={{position:'absolute',right:400}} className={`${styles.navBarLink}`}>تاریخچه دیجی کالا</span></NavLink>
                         </div>
                     </CustomModule>
                 </li>
@@ -25,7 +27,7 @@ const Header = () => {
                     <CustomModule button={'کسب و کار ما'} rightPosition={0} leftPosition={0} topPosition={40}>
                         <div className={`${styles.navBarLinks}`}>
                         <NavLink url={'/aboutUs'}><span style={{position:'absolute',right:400}} className={`${styles.navBarLink}`}>مارکت پلیس دیجی‌کالا</span></NavLink>
-                        <NavLink url={'/aboutUs/sellers'}><span style={{position:'absolute',right:530}} className={`${styles.navBarLink}`}>کسب و کارهای بومی و محلی</span></NavLink>
+                        <NavLink url={'/aboutUs'}><span style={{position:'absolute',right:530}} className={`${styles.navBarLink}`}>کسب و کارهای بومی و محلی</span></NavLink>
                         <NavLink url={'/aboutUs'}><span style={{position:'absolute',right:700}} className={`${styles.navBarLink}`}>لجستیک عملیاتی</span></NavLink>
                         <NavLink url={'/aboutUs'}><span style={{position:'absolute',right:800}} className={`${styles.navBarLink}`}>دیجی کالا بیزینس</span></NavLink>
                         </div>

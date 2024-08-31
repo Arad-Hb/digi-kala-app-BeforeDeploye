@@ -1,4 +1,4 @@
-import React, { Suspense } from 'react'
+import React from 'react'
 import styles from './Header.module.css'
 import Image from 'next/image'
 import SearchBox from './SearchBox'
@@ -8,13 +8,10 @@ import SetUserButton from './SetUserButton'
 import Location from './Location'
 import NavBar from './NavBar'
 import MegaMenu from './MegaMenu'
-import Skeleton from 'react-loading-skeleton'
 import 'react-loading-skeleton/dist/skeleton.css'
 
 
 const Header =() => {
- 
-
   return (
     <div className={`${styles.outerContainer}`}>
       <div className={`${styles.topBanner}`}><TopBanner/></div>

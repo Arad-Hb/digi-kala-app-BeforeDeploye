@@ -6,6 +6,7 @@
     background-color: #f2f2f2;
     width: 100%;
     margin-top: 3px;
+    
 }
 .items{
     display: flex;
@@ -45,3 +46,60 @@ flex-direction: column;
     margin: 60px 40px 20px 40px;
     padding: 10px 20px;
 }
+@media (max-width: 480px) {
+    .item{
+        display: flex;
+        flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: #7b7fa2;
+            background-color:white ;
+            margin: 0px 10px;
+            border-bottom-left-radius: 14px;
+            border-bottom-right-radius: 14px;
+            padding: 10px 10px;
+        }
+   }
+     
+   /* Media Query for low resolution  Tablets, Ipads */
+   @media (min-width: 481px) and (max-width: 767px) {
+    .item{
+        display: flex;
+        flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: #7b7fa2;
+            background-color:white ;
+            margin: 0px 10px;
+            border-bottom-left-radius: 14px;
+            border-bottom-right-radius: 14px;
+            padding: 20px 30px;
+        }
+   }
+     
+   /* Media Query for Tablets Ipads portrait mode */
+   @media (min-width: 768px) and (max-width: 1024px){
+    .item{
+        display: flex;
+        flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: #7b7fa2;
+            background-color:white ;
+            margin: 0px 30px;
+            border-bottom-left-radius: 14px;
+            border-bottom-right-radius: 14px;
+            padding: 20px 30px;
+        }
+   
+   }
+     
+   /* Media Query for Laptops and Desktops */
+   @media (min-width: 1025px) and (max-width: 1280px){
+   
+   }
+     
+   /* Media Query for Large screens */
+   @media (min-width: 1281px) {
+   
+   }

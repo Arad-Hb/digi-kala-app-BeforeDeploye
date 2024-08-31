@@ -1,5 +1,6 @@
 'use client'
 import React from 'react'
+import styles from './Chart.module.css'
 import dynamic from 'next/dynamic';
 import 'chart.js/auto';
 
@@ -36,7 +37,7 @@ const Bar = dynamic(() => import('react-chartjs-2').then((mod) => mod.Bar), {
 
 const Chart = () => {
   return (
-    <div style={{ width: '700px', height: '400px' }}>
+    <div className={`${styles.container}`}>
       <h3>چارت بررسی حجم فروش نیم سال اول 1403</h3>
       <Bar data={data} />
     </div>

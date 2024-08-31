@@ -1,7 +1,6 @@
 import NavLink from '@/components/features/NavLink'
 import React from 'react'
 import styles from './UserButton.module.css'
-import { FaRegUser } from 'react-icons/fa'
 import { PiUserList } from 'react-icons/pi'
 
 const UserButton = () => {

@@ -13,13 +13,13 @@ import { GrPieChart } from "react-icons/gr"
 const SideBar = () => {
   const data=[
     {name:"خانه", Icon:TbLayoutDashboard ,id:0,url:'/'},
-    {name:"محصولات", Icon: TbShoppingBagPlus,id:1,url:'/products'},
-    {name:"مشتری ها", Icon:CgUserList ,id:2,url:'/customers'},
-    {name:"سفارش ها", Icon: PiShoppingCart,id:3,url:'/orders'},
-    {name:"تخفیف ها", Icon: TbRosetteDiscount,id:4,url:'/discount'},
-    {name:"مقالات ", Icon: RiArticleLine,id:5,url:'/article'},
-    {name:"چارت ها ", Icon: GrPieChart,id:6,url:'/chart'},
-    {name:"تنظیمات", Icon:AiOutlineSetting ,id:7,url:'/settingForm'}
+    {name:"محصولات", Icon: TbShoppingBagPlus,id:1,url:'products'},
+    {name:"مشتری ها", Icon:CgUserList ,id:2,url:'/'},
+    {name:"سفارش ها", Icon: PiShoppingCart,id:3,url:'/'},
+    {name:"تخفیف ها", Icon: TbRosetteDiscount,id:4,url:'/'},
+    {name:"مقالات ", Icon: RiArticleLine,id:5,url:'/'},
+    {name:"چارت ها ", Icon: GrPieChart,id:6,url:'/'},
+    {name:"تنظیمات", Icon:AiOutlineSetting ,id:7,url:'/'}
   ]
   return (
     <div className={`${styles.container}`}>
@@ -27,7 +27,7 @@ const SideBar = () => {
         data.map(item=>{
           const { name, Icon , url} = item;
           return(
-          <NavLink url={`/admin/dashboard${url}`}>
+          <NavLink url={`/admin/dashboard/${url}`}>
             <div className={`${styles.item}`}>
               <span className={`${styles.icon}`}><Icon/></span>
               <span className={`${styles.name}`}>{name}</span>

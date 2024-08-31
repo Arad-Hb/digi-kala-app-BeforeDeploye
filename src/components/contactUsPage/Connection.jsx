@@ -17,7 +17,7 @@ const Connection = () => {
             </div>
         </div>
         <div className={`${styles.formContainer}`}>
-        <div className={`${styles.icon}`}><HiOutlineMail /></div>
+            <div className={`${styles.icon}`}><HiOutlineMail /></div>
             <div className={`${styles.text}`}>
                 <div className={`${styles.textTitle}`}>ارسال پیام</div>
                 <div className={`${styles.formButton}`}><NavLink url={'/contactUs/form'}>فرم تماس با ما</NavLink></div>

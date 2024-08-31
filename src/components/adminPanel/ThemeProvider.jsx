@@ -5,12 +5,14 @@ import AdminLogInForm from './AdminLogInForm'
 
 
 const ThemeProvider = ({children}) => {
-
+    
     const store=useSelector(state=>state.adminReducer)
 
   return (
     <>
-    {store.isLogedIn?<div>{children}</div>:<div><AdminLogInForm/></div>}
+    {/* {store.isLogedIn===false?<div><AdminLogInForm/></div>:
+    <div>{children}</div>} */}
+    <div>{children}</div>
     </>
   )
 }

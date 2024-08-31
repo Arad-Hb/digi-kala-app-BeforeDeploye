@@ -11,7 +11,7 @@ const Delivery = () => {
         {
             data.delivery.map(item=>{
                 return(
-                    <NavLink url={'/admin/dashboard'}>
+                    <NavLink url={'/contactUs/6'}>
                         <div className={`${styles.deliveryItem}`}>
                             <Image width={56} height={56} src={`/images/${item.name}.svg`} className={`${styles.deliveryIcon}`} alt='express delivery'/>
                             <span className={`${styles.deliveryTitle}`}>{item.text}</span>

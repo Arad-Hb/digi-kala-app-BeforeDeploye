@@ -5,9 +5,9 @@ import { addId } from '@/redux/features/slices/menuSlice'
 import { addItem, decreaseItem, increaseItem, removeItem } from '@/redux/features/slices/shoppingCartSlice'
 import { setAdminIsLogedOut } from '@/redux/features/slices/AdminSlice'
 
+
 const Dispatcher = ({children,event,action,value}) => {
    const dispatch= useDispatch()
-   
    const OnClickHandler=()=>{
     event==='onClick' &&  dispatchHandler(action,value)
    }

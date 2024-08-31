@@ -1,0 +1,34 @@
+
+.footer{
+display: flex;
+}
+.footerResponsive{
+    display: none;
+}
+@media (max-width: 480px) {
+    .footer{display: none;}
+    .footerResponsive{ display: flex;}
+}
+  
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+    .footer{display: none;}
+    .footerResponsive{ display: flex;}
+}
+  
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px){
+    .footer{display: none;}
+    .footerResponsive{ display: flex;}
+
+}
+  
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) and (max-width: 1280px){
+
+}
+  
+/* Media Query for Large screens */
+@media (min-width: 1281px) {
+
+}

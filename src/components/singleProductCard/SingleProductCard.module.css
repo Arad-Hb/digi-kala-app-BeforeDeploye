@@ -139,12 +139,14 @@
 @media (min-width: 1281px) {
     .outerContainer{
         display: flex;
-        
+        justify-content: center;
+        width: 100%;
     }
     .catalogueContainer{
+        width: 100%;
         display: flex;
         flex-direction: row;
-        justify-content: start;
+        justify-content: space-between;
         
     }
     .imageContainer{
@@ -154,6 +156,7 @@
     .detailsContainer{
         display: flex;
         flex-direction: column;
+        justify-content: left;
         flex-basis: 70%;
     }
     .productName{

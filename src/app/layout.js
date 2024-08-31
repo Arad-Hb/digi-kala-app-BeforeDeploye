@@ -1,7 +1,6 @@
 import "./globals.css";
 import localFont from 'next/font/local'
 import StoreProvider from "@/components/features/StoreProvider";
-import { Suspense } from "react";
 
 
 export const metadata = {
@@ -25,9 +24,7 @@ export default function RootLayout({children}) {
     <html lang="fa">
       <body  className={iranSansFont.className }>
       <StoreProvider>
-        
           <>{children}</>
-        
       </StoreProvider> 
       </body>
     </html>

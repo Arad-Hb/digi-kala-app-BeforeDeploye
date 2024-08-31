@@ -1,65 +1,307 @@
-.outerContainer{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    position: fixed;
-  width: 100%;
-  height: 100%;
-  left: 0;
-  top: 0;
-    
-}
-.contentContainer{
-flex-basis: 50%;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-}
-.contentHeader{
-height: 20%;
-}
-.contentForm{
-    height: 80%;
-}
 
-.buttonContainer{
-flex-basis: 50%;
-display: flex;
-flex-direction: column;
-background: rgb(238,56,78);
-background: radial-gradient(circle, rgba(238,56,78,1) 0%, rgba(142,27,27,1) 100%);
-}
-.buttonHeader{
-   font-size: 80px;
-   font-weight: 900;
-   color: white;
-   margin: 30px auto;
-}
-.buttonContent{
-    align-items: right;
+@media (max-width: 480px) {
+    .outerContainer{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+    }
+    .contentContainer{display: flex;justify-content: center;align-items: center;}
+    .contentHeader{display: none;}
+    .buttonHeader{display: none;}
+    .buttonContainer{
+        position: fixed;
+        bottom: 0;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        background: rgb(238,56,78);
+        background: radial-gradient(circle, rgba(238,56,78,1) 0%, rgba(142,27,27,1) 100%);
+        }
+        .buttonContent{
+            width: 100%;
+            display: flex;
+            flex-direction: row; 
+            justify-content: space-between;
+        }
+        .inactiveButton{
+            flex-basis: 50%;
+            font-size: 32px;
+            font-weight: 800;
+            color: white;
+           padding-right:20px;
+           text-align: center;
+           }
+           .activeButton{
+            flex-basis: 50%;
+               font-size: 32px;
+               font-weight: 800;
+               background-color: white;
+               color: #ee384e;
+               padding-right:20px;
+               text-align: center;
+           }
+   }
+     
+   /* Media Query for low resolution  Tablets, Ipads */
+   @media (min-width: 481px) and (max-width: 767px) {
+    .outerContainer{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+    }
+    .contentContainer{display: flex;justify-content: center;align-items: center;}
+    .contentHeader{display: none;}
+    .buttonHeader{display: none;}
+    .buttonContainer{
+        position: fixed;
+        bottom: 0;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        background: rgb(238,56,78);
+        background: radial-gradient(circle, rgba(238,56,78,1) 0%, rgba(142,27,27,1) 100%);
+        }
+        .buttonContent{
+            width: 100%;
+            display: flex;
+            flex-direction: row; 
+            justify-content: space-between;
+        }
+        .inactiveButton{
+            flex-basis: 50%;
+            font-size: 32px;
+            font-weight: 800;
+            color: white;
+           padding-right:20px;
+           text-align: center;
+           }
+           .activeButton{
+            flex-basis: 50%;
+               font-size: 32px;
+               font-weight: 800;
+               background-color: white;
+               color: #ee384e;
+               padding-right:20px;
+               text-align: center;
+           }
+   }
+     
+   /* Media Query for Tablets Ipads portrait mode */
+   @media (min-width: 768px) and (max-width: 1024px){
+    .outerContainer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        position: fixed;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+        
+    }
+    .contentContainer{
+    flex-basis: 50%;
     display: flex;
-    flex-direction: column; 
-    margin: 200px 0px;
-}
-.inactiveButton{
- width: 200px;
- height: 60px;
- font-size: 32px;
- font-weight: 800;
- color: white;
-padding-right:20px;
-border-top-left-radius: 10px;
-border-bottom-left-radius: 10px;
-}
-.activeButton{
-    width: 200px;
-    height: 60px;
-    font-size: 32px;
-    font-weight: 800;
-    background-color: white;
-    color: #ee384e;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    .contentHeader{
+    height: 20%;
+    }
+    .contentForm{
+        height: 80%;
+    }
+    
+    .buttonContainer{
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    background: rgb(238,56,78);
+    background: radial-gradient(circle, rgba(238,56,78,1) 0%, rgba(142,27,27,1) 100%);
+    }
+    .buttonHeader{
+       font-size: 80px;
+       font-weight: 900;
+       color: white;
+       margin: 30px auto;
+    }
+    .buttonContent{
+        align-items: right;
+        display: flex;
+        flex-direction: column; 
+        margin: 200px 0px;
+    }
+    .inactiveButton{
+     width: 200px;
+     height: 60px;
+     font-size: 32px;
+     font-weight: 800;
+     color: white;
     padding-right:20px;
     border-top-left-radius: 10px;
-border-bottom-left-radius: 10px;
-}
+    border-bottom-left-radius: 10px;
+    }
+    .activeButton{
+        width: 200px;
+        height: 60px;
+        font-size: 32px;
+        font-weight: 800;
+        background-color: white;
+        color: #ee384e;
+        padding-right:20px;
+        border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    }
+   
+   }
+     
+   /* Media Query for Laptops and Desktops */
+   @media (min-width: 1025px) and (max-width: 1280px){
+    .outerContainer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        position: fixed;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+        
+    }
+    .contentContainer{
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    .contentHeader{
+    height: 20%;
+    }
+    .contentForm{
+        height: 80%;
+    }
+    
+    .buttonContainer{
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    background: rgb(238,56,78);
+    background: radial-gradient(circle, rgba(238,56,78,1) 0%, rgba(142,27,27,1) 100%);
+    }
+    .buttonHeader{
+       font-size: 80px;
+       font-weight: 900;
+       color: white;
+       margin: 30px auto;
+    }
+    .buttonContent{
+        align-items: right;
+        display: flex;
+        flex-direction: column; 
+        margin: 200px 0px;
+    }
+    .inactiveButton{
+     width: 200px;
+     height: 60px;
+     font-size: 32px;
+     font-weight: 800;
+     color: white;
+    padding-right:20px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    }
+    .activeButton{
+        width: 200px;
+        height: 60px;
+        font-size: 32px;
+        font-weight: 800;
+        background-color: white;
+        color: #ee384e;
+        padding-right:20px;
+        border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    }
+   }
+     
+   /* Media Query for Large screens */
+   @media (min-width: 1281px) {
+    .outerContainer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        position: fixed;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+        
+    }
+    .contentContainer{
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    .contentHeader{
+    height: 20%;
+    }
+    .contentForm{
+        height: 80%;
+    }
+    
+    .buttonContainer{
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    background: rgb(238,56,78);
+    background: radial-gradient(circle, rgba(238,56,78,1) 0%, rgba(142,27,27,1) 100%);
+    }
+    .buttonHeader{
+       font-size: 80px;
+       font-weight: 900;
+       color: white;
+       margin: 30px auto;
+    }
+    .buttonContent{
+        align-items: right;
+        display: flex;
+        flex-direction: column; 
+        margin: 200px 0px;
+    }
+    .inactiveButton{
+     width: 200px;
+     height: 60px;
+     font-size: 32px;
+     font-weight: 800;
+     color: white;
+    padding-right:20px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    }
+    .activeButton{
+        width: 200px;
+        height: 60px;
+        font-size: 32px;
+        font-weight: 800;
+        background-color: white;
+        color: #ee384e;
+        padding-right:20px;
+        border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    }
+   }
