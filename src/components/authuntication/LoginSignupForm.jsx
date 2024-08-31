@@ -68,13 +68,15 @@ const LoginSignupForm = ({showSignup}) => {
     else{
       postData("users/login",secondRequest )
             .then(response => {
-                if (response.hasOwnProperty("token")) {
+             
+              console.log(response);
+                if (response.token===undefined) {
+                  alert("نام کاربری یا کلمه عبور صحیح نمی باشد!!!!")
+                }
+                else {
                   Cookies.set('jwt',response.token)
                   revalidate("topBanner")
                   return router.push('/user/dashboard')
-                }
-                else {
-                    alert("نام کاربری یا کلمه عبور صحیح نمی باشد!!!!")
                 }
             })
             .catch(error => {

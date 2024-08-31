@@ -1,9 +1,13 @@
-
+.container{
+    
+}
 .footer{
 display: flex;
+margin-right: 5px;
 }
 .footerResponsive{
     display: none;
+   
 }
 @media (max-width: 480px) {
     .footer{display: none;}

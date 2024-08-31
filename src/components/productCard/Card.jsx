@@ -15,7 +15,7 @@ const Card = ({product}) => {
           <span className={`${styles.title}`}>
             {product.incredibleOffers === true ? <Image className={`${styles.incredibleOfferImage}`} alt={product.name} src='/images/IncredibleOffer.svg' width={180} height={15} /> : null}
           </span>
-          <NavLink url={`/products/singleProduct/${product.id}`}><Image src={product.indexImageUrl} alt={product.name} width={150} height={170}  className={`${styles.image}`}/></NavLink>
+          <NavLink url={`/products/singleProduct/${product.id}`}><Image src={product.indexImageUrl} alt={product.name} width={150} height={190}  className={`${styles.image}`}/></NavLink>
         </div>
         <div className={`${styles.main}`}>
             <p className={`${styles.name}`}>{product.name.substring(0, 25)}{product.name.length > 25 ? "..." : null}</p>

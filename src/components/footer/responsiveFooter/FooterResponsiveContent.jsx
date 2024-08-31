@@ -34,11 +34,6 @@ const FooterResponsiveContent = () => {
                 <OrderGuidance/>
               </CustomDropDown>
             </div>
-            <div className={`${styles.item}`}>
-              <CustomDropDown title={'شرکای تجاری'}>
-                <Partners/>
-              </CustomDropDown>
-            </div>
           </div>
         </div>
         <div className={`${styles.responsiveFooter}`}>

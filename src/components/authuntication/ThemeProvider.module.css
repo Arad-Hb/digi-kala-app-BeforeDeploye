@@ -11,7 +11,7 @@
         left: 0;
         top: 0;
     }
-    .contentContainer{display: flex;justify-content: center;align-items: center;}
+    .contentContainer{display: flex;justify-content: center;align-items: center;margin-bottom: 50px;}
     .contentHeader{display: none;}
     .buttonHeader{display: none;}
     .buttonContainer{
@@ -61,7 +61,7 @@
         left: 0;
         top: 0;
     }
-    .contentContainer{display: flex;justify-content: center;align-items: center;}
+    .contentContainer{display: flex;justify-content: center;align-items: center;margin-bottom: 50px;}
     .contentHeader{display: none;}
     .buttonHeader{display: none;}
     .buttonContainer{
@@ -117,6 +117,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 40px;
     }
     .contentHeader{
     height: 20%;
